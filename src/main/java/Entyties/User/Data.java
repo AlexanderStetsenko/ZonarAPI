@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * Created by Александр on 14.06.2017.
  */
-public class Date extends Entity{
+public class Data extends Entity{
 
 
     @JsonProperty("Id")
@@ -48,10 +48,10 @@ public class Date extends Entity{
     @JsonProperty("isLogoDefault")
     private boolean isLogoDefault;
 
-    public Date() {
+    public Data() {
     }
 
-    public Date(int id, String firstName, String lastName, String email, String company, String address, String city, String state, String phone, String history, String logo, int levelPermission, boolean isLogoDefault) {
+    public Data(int id, String firstName, String lastName, String email, String company, String address, String city, String state, String phone, String history, String logo, int levelPermission, boolean isLogoDefault) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -148,7 +148,7 @@ public class Date extends Entity{
 
     @Override
     public String toString() {
-        return "Date{" +
+        return "Data{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +

@@ -11,15 +11,15 @@ public class User extends Entity {
     @JsonProperty("err")
     private String err;
 
-    @JsonProperty("date")
-    private Date date;
+    @JsonProperty("data")
+    private Data data;
 
     public User() {
     }
 
-    public User(String err, Date date) {
+    public User(String err, Data data) {
         this.err = err;
-        this.date = date;
+        this.data = data;
     }
 
     public String getErr(){
@@ -28,18 +28,18 @@ public class User extends Entity {
     public void setErr(String input){
         this.err = input;
     }
-    public Date getDate(){
-        return date;
+    public Data getData(){
+        return data;
     }
-    public void setDate(Date input){
-        this.date = input;
+    public void setData(Data input){
+        this.data = input;
     }
 
     @Override
     public String toString() {
         return "User{" +
                 "err='" + err + '\'' +
-                ", date=" + date +
+                ", data=" + data +
                 '}';
     }
 }

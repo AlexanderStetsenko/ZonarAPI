@@ -1,6 +1,6 @@
 package Entyties.Project.Development.Building;
 
-import Entyties.User.Date;
+import Entyties.User.Data;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -30,7 +30,7 @@ public class Building {
 
     @JsonIgnore(true)
 //    @JsonProperty("CreatedOn")
-     Date createdOn;
+            Data createdOn;
 
     @JsonProperty("ModifiedBy")
     String modifiedBy;
@@ -38,7 +38,7 @@ public class Building {
     @JsonIgnore(true)
 
     @JsonProperty("ModifiedOn")
-    Date modifiedOn;
+    Data modifiedOn;
 
     @JsonProperty("ZoningAllowancesId")
     int zoningAllowancesId;
@@ -49,7 +49,7 @@ public class Building {
     public Building() {
     }
 
-    public Building(int id, String name, String description, String createdBy, int appliedOverrideId, Date createdOn, String modifiedBy, Date modifiedOn, int zoningAllowancesId, int capacityAnalysisId) {
+    public Building(int id, String name, String description, String createdBy, int appliedOverrideId, Data createdOn, String modifiedBy, Data modifiedOn, int zoningAllowancesId, int capacityAnalysisId) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -102,11 +102,11 @@ public class Building {
         this.appliedOverrideId = appliedOverrideId;
     }
 
-    public Date getCreatedOn() {
+    public Data getCreatedOn() {
         return createdOn;
     }
 
-    public void setCreatedOn(Date createdOn) {
+    public void setCreatedOn(Data createdOn) {
         this.createdOn = createdOn;
     }
 
@@ -118,11 +118,11 @@ public class Building {
         this.modifiedBy = modifiedBy;
     }
 
-    public Date getModifiedOn() {
+    public Data getModifiedOn() {
         return modifiedOn;
     }
 
-    public void setModifiedOn(Date modifiedOn) {
+    public void setModifiedOn(Data modifiedOn) {
         this.modifiedOn = modifiedOn;
     }
 
