@@ -11,7 +11,7 @@ public class CreateProjectResponse extends Entity
 {
 
     @JsonProperty("savedProjectID")
-    public String savedProjectID;
+    private String savedProjectID;
 
     public CreateProjectResponse() {
     }

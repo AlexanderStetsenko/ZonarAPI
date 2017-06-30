@@ -1,45 +1,43 @@
 package Entyties.Project;
 
 import Entyties.Project.Development.DevelopmentsWrappers;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import Entyties.Project.ProjectZoningCodes.ProjectZoningCodes;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Александр on 21.06.2017.
+ * Created by Александр on 30.06.2017.
  */
-@JsonIgnoreProperties(ignoreUnknown = true)
-public class Project {
+public class Project
+{
     @JsonProperty("_isReady")
-    Boolean isReady;
+    boolean isReady;
 
     @JsonProperty("Project")
     ProjectInfo projectInfo;
 
+    @JsonProperty("collectionName")
+    String collectionName;
+
+    @JsonProperty("type")
+    int type;
+
+    @JsonProperty("userId")
+    int userId;
+
     @JsonProperty("DevelopmentsWrappers")
-    List<DevelopmentsWrappers> developmentsWrapper =  new ArrayList<DevelopmentsWrappers>();
+    List<DevelopmentsWrappers> developmentsWrapper;
 
     @JsonProperty("projectZoningCodes")
-    List<ProjectZoningCodes> projectZoningCodes = new ArrayList<ProjectZoningCodes>();
-
-    public Project() {
-    }
-
-    public Project(Boolean isReady, ProjectInfo projectInfo, List<DevelopmentsWrappers> developmentsWrapper, List<ProjectZoningCodes> projectZoningCodes) {
-        this.isReady = isReady;
-        this.projectInfo = projectInfo;
-        this.developmentsWrapper = developmentsWrapper;
-        this.projectZoningCodes = projectZoningCodes;
-    }
+    List<ProjectZoningCodes> projectZoningCodes;
 
 
-    public Boolean getReady() {
+    public boolean isReady() {
         return isReady;
     }
 
-    public void setReady(Boolean ready) {
+    public void setReady(boolean ready) {
         isReady = ready;
     }
 
@@ -49,6 +47,30 @@ public class Project {
 
     public void setProjectInfo(ProjectInfo projectInfo) {
         this.projectInfo = projectInfo;
+    }
+
+    public String getCollectionName() {
+        return collectionName;
+    }
+
+    public void setCollectionName(String collectionName) {
+        this.collectionName = collectionName;
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public void setType(int type) {
+        this.type = type;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public List<DevelopmentsWrappers> getDevelopmentsWrapper() {
@@ -72,6 +94,9 @@ public class Project {
         return "Project{" +
                 "isReady=" + isReady +
                 ", projectInfo=" + projectInfo +
+                ", collectionName='" + collectionName + '\'' +
+                ", type=" + type +
+                ", userId=" + userId +
                 ", developmentsWrapper=" + developmentsWrapper +
                 ", projectZoningCodes=" + projectZoningCodes +
                 '}';

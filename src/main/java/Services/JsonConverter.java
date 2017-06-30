@@ -2,6 +2,7 @@ package Services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.File;
 import java.io.IOException;
 
 /**
@@ -10,10 +11,22 @@ import java.io.IOException;
 public class JsonConverter {
     private final static String baseFile = "user.json";
 
+
     public Object getObjectFromString(String str, Object inputEntity){
         ObjectMapper mapper = new ObjectMapper();
         try {
             inputEntity = mapper.readValue(str, inputEntity.getClass());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return inputEntity;
+    }
+
+
+    public Object getObjectFromString(File json, Object inputEntity){
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            inputEntity = mapper.readValue(json, inputEntity.getClass());
         } catch (IOException e) {
             e.printStackTrace();
         }

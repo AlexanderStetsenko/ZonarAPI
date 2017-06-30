@@ -1,4 +1,4 @@
-package Entyties.Project;
+package Entyties.Project.ProjectZoningCodes;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

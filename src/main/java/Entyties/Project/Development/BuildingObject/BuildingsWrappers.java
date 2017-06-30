@@ -1,10 +1,7 @@
-package Entyties.Project.Development.Building;
+package Entyties.Project.Development.BuildingObject;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Александр on 21.06.2017.

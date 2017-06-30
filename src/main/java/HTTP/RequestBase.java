@@ -2,6 +2,8 @@ package HTTP;
 
 import Entyties.Entity;
 import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.Unirest;
+import com.mashape.unirest.http.exceptions.UnirestException;
 
 import java.util.HashMap;
 import java.util.List;
@@ -14,6 +16,8 @@ public  class RequestBase{
 
     protected HttpResponse<String> response;
     protected String baseUrl = "https://dev1-zonar.gridics.com/";
+    protected String baseUrlService = "https://dev1-zonarservice.gridics.com/";
+
 
     protected List<String> header;
     protected String body;
@@ -36,5 +40,31 @@ public  class RequestBase{
 
     public void setHeaders(Map<String, String> headers) {
         this.headers = headers;
+    }
+
+
+//    protected HttpResponse<String> sendRequest(String url, String body){
+//        try {
+//            response = Unirest.post(baseUrl + url)
+//                    .headers(getHeaders())
+//                    .body(body)
+//                    .asString();
+//        } catch (UnirestException e) {
+//            e.printStackTrace();
+//        }
+//        return response;
+//    }
+
+
+    protected HttpResponse<String> sendRequest(String url, String body)
+    {
+        try {
+            response = Unirest.post(baseUrlService + url).headers(getHeaders())
+                    .body(body)
+                    .asString();
+        } catch (UnirestException e) {
+            e.printStackTrace();
+        }
+        return response;
     }
 }

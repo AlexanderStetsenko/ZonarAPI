@@ -1,6 +1,6 @@
 package Entyties.Project.Development;
 
-import Entyties.Project.Development.Building.BuildingsWrappers;
+import Entyties.Project.Development.BuildingObject.BuildingsWrappers;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 

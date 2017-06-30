@@ -1,26 +1,22 @@
-package Entyties.Project.Development.Building;
+package Entyties.Project.Development.BuildingObject.Building;
 
 import Entyties.User.Data;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/**
- * Created by Александр on 21.06.2017.
- */
-
 // Not all fields are added
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Building {
 
     @JsonProperty("Id")
-    int id;
+    private int id;
 
     @JsonProperty("Name")
-    String name;
+    private String name;
 
     @JsonProperty("Description")
-    String description;
+    private String description;
 
     @JsonProperty("CreatedBy")
     String createdBy;
@@ -140,5 +136,22 @@ public class Building {
 
     public void setCapacityAnalysisId(int capacityAnalysisId) {
         this.capacityAnalysisId = capacityAnalysisId;
+    }
+
+
+    @Override
+    public String toString() {
+        return "BuildingObject{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", createdBy='" + createdBy + '\'' +
+                ", appliedOverrideId=" + appliedOverrideId +
+                ", createdOn=" + createdOn +
+                ", modifiedBy='" + modifiedBy + '\'' +
+                ", modifiedOn=" + modifiedOn +
+                ", zoningAllowancesId=" + zoningAllowancesId +
+                ", capacityAnalysisId=" + capacityAnalysisId +
+                '}';
     }
 }
