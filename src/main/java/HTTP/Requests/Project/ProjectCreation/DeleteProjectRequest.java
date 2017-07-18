@@ -11,11 +11,13 @@ import ru.yandex.qatools.allure.annotations.Step;
  */
 public class DeleteProjectRequest extends RequestBase{
 
-    @Step("Delecte Project request")
+
+    @Step("Delete Project request")
     public void sendDeleteProjectRequest()
     {
         System.out.println("Deleting Project... ");
         sendRequest("api/project/deleteProject", "{\"ProjectId\":" + Entity.getProjectId() + "}");
+
         if(response.getBody().contains("\"message\": \"Success\"" ))
             System.out.println(String.format("Project %s is deleted", Entity.getProjectId()));
         else {
@@ -27,7 +29,7 @@ public class DeleteProjectRequest extends RequestBase{
     public void sendDeleteProjectRequest(String projectID)
     {
         System.out.println("Deleting Project");
-        sendRequest(baseUrl, projectID);
+        sendRequest("api/project/deleteProject", projectID);
         System.out.println(String.format("Project %s is deleted", projectID));
 
     }

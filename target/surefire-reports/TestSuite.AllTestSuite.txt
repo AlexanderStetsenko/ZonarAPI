@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite.AllTestSuite
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 21.838 sec <<< FAILURE!
+getUserData[Login: alex@test.com Password: Qwerty1! ](Tests.AccountTests.Login)  Time elapsed: 1.236 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at Actions.UserAction.checkEmail(UserAction.java:40)
+	at Tests.AccountTests.Login.getUserData(Login.java:39)
+
+getUserData[Login: alex@test.com Password: Qwerty1! ](Tests.AccountTests.Login)  Time elapsed: 0.238 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at Actions.UserAction.checkEmail(UserAction.java:40)
+	at Tests.AccountTests.Login.getUserData(Login.java:39)
+
+checkAppliedVariances[Shape number: 828 900](Tests.CalculationTests.BuildingTests.BuildingTests)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <[[889, 888, 890, 891, 892, 894, 895, 897, 899, 900, 901, 902]>
+     but: was <[[889, 888, 890, 891, 892, 894, 895, 897, 899, 900, 901, 902, 898]>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at Actions.BuildingActions.BuildingActions.checkVariancesList(BuildingActions.java:62)
+	at Tests.CalculationTests.BuildingTests.BuildingTests.checkAppliedVariances(BuildingTests.java:31)
+

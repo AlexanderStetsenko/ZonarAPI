@@ -1,0 +1,16 @@
+{
+  "testSettings":{
+    "user": "alex@test.com",
+    "password": "Qwerty1!",
+    "shapes": [828900],
+    "filePath": ["D:\\Project\\ZonarAPI\\src\\test\\resources\\Project\\169eFlagler.json"]
+  },
+  "requestSettings":{
+    "baseUrl": "https://dev1-zonar.gridics.com/itech/",
+    "baseUrlService": "https://dev1-zonarservice.gridics.com/"
+  }
+}
+
+
+
+

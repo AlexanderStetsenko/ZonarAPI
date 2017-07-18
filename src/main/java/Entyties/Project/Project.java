@@ -6,31 +6,28 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
-/**
- * Created by Александр on 30.06.2017.
- */
 public class Project
 {
     @JsonProperty("_isReady")
-    boolean isReady;
+    private boolean isReady;
 
     @JsonProperty("Project")
-    ProjectInfo projectInfo;
+    private ProjectInfo projectInfo;
 
     @JsonProperty("collectionName")
-    String collectionName;
+    private String collectionName;
 
     @JsonProperty("type")
-    int type;
+    private int type;
 
     @JsonProperty("userId")
-    int userId;
+    private int userId;
 
     @JsonProperty("DevelopmentsWrappers")
-    List<DevelopmentsWrappers> developmentsWrapper;
+    private List<DevelopmentsWrappers> developmentsWrapper;
 
     @JsonProperty("projectZoningCodes")
-    List<ProjectZoningCodes> projectZoningCodes;
+    private List<ProjectZoningCodes> projectZoningCodes;
 
 
     public boolean isReady() {

@@ -13,9 +13,9 @@ import static Entyties.Entity.getUserToken;
  */
 public class GetUserDataRequest extends RequestBase{
 
-    UserAction userAction = new UserAction();
-
+    //should be refactored with baseClass method
     public HttpResponse<String> getUserDataRequest(){
+        sendRequest(baseUrl + "account/getUserData", "{}");
         try {
             response = Unirest.post(baseUrl + "account/getUserData")
                     .headers(getHeaders())

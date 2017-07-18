@@ -38,5 +38,12 @@ public class LoginResponse extends Entity {
         this.message = message;
     }
 
-
+    @Override
+    public String toString() {
+        return "LoginResponse{" +
+                "resType='" + resType + '\'' +
+                ", message='" + message + '\'' +
+                ", token='" + token + '\'' +
+                '}';
+    }
 }

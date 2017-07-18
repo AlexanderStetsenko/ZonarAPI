@@ -1,0 +1,689 @@
+{
+  "zcCalibrations": {
+"ZoneCombination": {
+"load": true,
+"row": {
+"Id": 40,
+"ZoneId": 5,
+"SubZoneId": 10,
+"ZoneTypeId": 3,
+"CreatedOn": "2015-11-26T15:59:55.000Z",
+"ModifiedOn": "2017-06-15T16:23:48.000Z",
+"GridicsId": 2053496,
+"IsNotCalibrated": null,
+"CalibrationErrorMessage": null,
+"BuildingTypologyMandatory": false,
+"DefaultBuildingTypology": null,
+"CloneId": null
+}
+},
+"Bonus": {
+"load": true,
+"row": {
+"ZoneCombinationId": 40,
+"OverlayTypologyId": null,
+"LevelBonus": 0,
+"HeightBonus": 1,
+"FLRBonus": 50,
+"BrownfieldRedevelopment": 1,
+"ParkingReductionBonus": 0
+}
+},
+"GeneralInfo": {
+"load": true,
+"row": {
+"ZoneCombinationId": 40,
+"OverlayTypologyId": null,
+"PrincipalBuildingMax": 8,
+"PrincipalBuildingMin": 2,
+"Outbuilding": null,
+"FacadePrimaryFrontage": 70,
+"FacadeSecondaryFrontage": 50,
+"PkgFacadeWidthMax": null,
+"Tower": 80,
+"LotAreaMin": 5000,
+"LotAreaMax": null,
+"LotAreaMinAlley": 5000,
+"LotAreaMaxAlley": null,
+"LotWidthMin": 100,
+"LotWidthMinAlley": null,
+"LotWidthMax": null,
+"GreenSpace": 10,
+"LotCoverageFirstFloor": 80,
+"LotCoverageSecondFloor": null,
+"TowerFloorplateAreaResidential": 18000,
+"TowerFloorplateAreaCommercial": 30000,
+"SecondLayerDimension": 15,
+"DensityNet": 1000,
+"LodgingExchange": 2,
+"FLR": 24,
+"PFrontSetbackPrincipal": 10,
+"PFrontSetbackSecondary": 10,
+"PSideSetback": 0,
+"PRearSetback": 0,
+"OFrontSetbackPrincipal": null,
+"OSideSetback": null,
+"OSideSetbackAtCorner": null,
+"ORearSetback": null,
+"TFrontSetbackPrincipal": 20,
+"TFrontSetbackSecondary": 20,
+"TSideSetback": 30,
+"TRearSetback": 30,
+"TSetbackBetweenTowers": 60,
+"UFrontSetbackPrincipal": 0,
+"UFrontSetbackSecondary": 0,
+"USideSetback": 0,
+"URearSetback": 0,
+"CommonLawn": false,
+"PorchAndFence": false,
+"TerraceOrLightwell": false,
+"Forecourt": true,
+"Stoop": true,
+"Shopfront": true,
+"Gallery": false,
+"Arcade": false,
+"PrincipalBuildingHgt": null,
+"ActivePrimaryFrontageGround": true,
+"ActivePrimaryFrontageAbove": true,
+"ActiveSecondaryFrontageGround": true,
+"ActiveSecondaryFrontageAbove": true,
+"ActiveWaterFrontageGround": true,
+"ActiveWaterFrontageAbove": true,
+"Penthouse": null,
+"TowerHgt": null,
+"PenthouseFloorPlate": null,
+"UnitAreaMin": 400,
+"UnitAreaMax": null,
+"RoomAreaMin": null,
+"RoomAreaMax": null,
+"PWaterSetback": 50,
+"TWaterSetback": 50,
+"PeFrontSetbackPrincipal": null,
+"PeFrontSetbackSecondary": null,
+"PeSideSetback": null,
+"PeRearSetback": null,
+"ResidentialTODBenefitReduction": 100
+}
+},
+"OfficeCommercial": {
+"load": true,
+"row": {
+"ZoneCombinationId": 40,
+"OverlayTypologyId": null,
+"OfficeMaxStories": -1,
+"OfficeCommercialMaxStories": -1,
+"OfficeCommercialMaxPercentArea": 100,
+"CommercialEstabMaxArea": 55000,
+"CommercialFoodMaxSeating": null
+}
+},
+"Parking": {
+"load": true,
+"row": {
+"ZoneCombinationId": 40,
+"OverlayTypologyId": null,
+"Residential": 1.5,
+"ResidentialVisitors": 0.1,
+"ResidentialTODBenefitReduction": 100,
+"LodgingRooms": 0.5,
+"LodgingVisitors": 0.07,
+"LodgingTODBenefitReduction": null,
+"Office": 0.001,
+"OfficeTODBenefitReduction": null,
+"Commercial": 0.003,
+"CommercialTODBenefitReduction": null,
+"CivicAssembly": 0.2,
+"CivicTODBenefitReduction": null,
+"TODMaxDistanceToStation": null,
+"TODMinDistanceToLowDensity": null
+}
+},
+"SetbackConditions": {
+"load": true,
+"row": [
+{
+"_isReady": true,
+"_plainModel": null,
+"_plainModelWithRelations": null,
+"entityDBSettings": {
+"TableName": "SetbackCondition",
+"KeyFields": [
+"ZoneCombinationId",
+"FieldReference",
+"OverlayId"
+],
+"PreLoaded": true,
+"Fields": [
+"ZoneCombinationId",
+"FieldReference",
+"OverlayId",
+"SetbackConditionalReference",
+"SetbackConditionalComparison",
+"SetbackConditionalComparisonValue",
+"SetbackValueType",
+"SetbackValue",
+"SetbackValueReference"
+]
+},
+"ZoneCombinationId": 40,
+"FieldReference": "PFrontSetbackPrincipal",
+"OverlayId": 0,
+"SetbackConditionalReference": null,
+"SetbackConditionalComparison": 1,
+"SetbackConditionalComparisonValue": 1,
+"SetbackValueType": 0,
+"SetbackValue": 70,
+"SetbackValueReference": null
+},
+{
+"_isReady": true,
+"_plainModel": null,
+"_plainModelWithRelations": null,
+"entityDBSettings": {
+"TableName": "SetbackCondition",
+"KeyFields": [
+"ZoneCombinationId",
+"FieldReference",
+"OverlayId"
+],
+"PreLoaded": true,
+"Fields": [
+"ZoneCombinationId",
+"FieldReference",
+"OverlayId",
+"SetbackConditionalReference",
+"SetbackConditionalComparison",
+"SetbackConditionalComparisonValue",
+"SetbackValueType",
+"SetbackValue",
+"SetbackValueReference"
+]
+},
+"ZoneCombinationId": 40,
+"FieldReference": "PWaterSetback",
+"OverlayId": -1,
+"SetbackConditionalReference": 1,
+"SetbackConditionalComparison": 0,
+"SetbackConditionalComparisonValue": 200,
+"SetbackValueType": 1,
+"SetbackValue": 25,
+"SetbackValueReference": 1
+}
+]
+},
+"Uses": {
+"load": true,
+"row": [
+{
+"CalibrationUsesLabelId": 1,
+"TypeId": 1,
+"Label": "Single Family Residence",
+"ValueId": 1073,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 2,
+"TypeId": 1,
+"Label": "Community Residence",
+"ValueId": 1074,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 3,
+"TypeId": 1,
+"Label": "Ancillary Unit",
+"ValueId": null,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 0,
+"Value": "N"
+},
+{
+"CalibrationUsesLabelId": 4,
+"TypeId": 1,
+"Label": "Two Family Residence",
+"ValueId": 1075,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 5,
+"TypeId": 1,
+"Label": "Multi Family Housing",
+"ValueId": 1076,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 6,
+"TypeId": 1,
+"Label": "Dormitory",
+"ValueId": 1077,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 7,
+"TypeId": 1,
+"Label": "Home Office",
+"ValueId": 1078,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 8,
+"TypeId": 1,
+"Label": "Live - Work",
+"ValueId": 1079,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 9,
+"TypeId": 1,
+"Label": "Work - Live",
+"ValueId": null,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 0,
+"Value": "N"
+},
+{
+"CalibrationUsesLabelId": 10,
+"TypeId": 2,
+"Label": "Bed & Breakfast",
+"ValueId": 1080,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 11,
+"TypeId": 2,
+"Label": "Inn",
+"ValueId": 1081,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 12,
+"TypeId": 2,
+"Label": "Hotel",
+"ValueId": 1082,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 13,
+"TypeId": 3,
+"Label": "Office",
+"ValueId": 1083,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 14,
+"TypeId": 4,
+"Label": "Auto - Related Commercial Establs.",
+"ValueId": 1084,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 15,
+"TypeId": 4,
+"Label": "Entertainment Estab.",
+"ValueId": 1085,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 16,
+"TypeId": 4,
+"Label": "Entertainment Estab. - Adult",
+"ValueId": null,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 0,
+"Value": "N"
+},
+{
+"CalibrationUsesLabelId": 17,
+"TypeId": 4,
+"Label": "Food Service Estab.",
+"ValueId": 1086,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 18,
+"TypeId": 4,
+"Label": "Alcohol Beverage Serv.",
+"ValueId": 1087,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 3,
+"Value": "E"
+},
+{
+"CalibrationUsesLabelId": 19,
+"TypeId": 4,
+"Label": "General Commercial",
+"ValueId": 1088,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 20,
+"TypeId": 4,
+"Label": "Marine Related Comm.",
+"ValueId": 1089,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 21,
+"TypeId": 4,
+"Label": "Open Air Retail",
+"ValueId": 1090,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 22,
+"TypeId": 4,
+"Label": "Place of Assembly",
+"ValueId": 1091,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 23,
+"TypeId": 4,
+"Label": "Recreation Establs.",
+"ValueId": 1092,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 24,
+"TypeId": 5,
+"Label": "Community Facility",
+"ValueId": 1093,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 25,
+"TypeId": 5,
+"Label": "Recreational Facility",
+"ValueId": 1094,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 26,
+"TypeId": 5,
+"Label": "Religious Facility",
+"ValueId": 1095,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 27,
+"TypeId": 6,
+"Label": "Community Support Fac.",
+"ValueId": 1096,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 28,
+"TypeId": 6,
+"Label": "Infrastructure and Util.",
+"ValueId": 1097,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 29,
+"TypeId": 6,
+"Label": "Major Facility",
+"ValueId": null,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 0,
+"Value": "N"
+},
+{
+"CalibrationUsesLabelId": 30,
+"TypeId": 6,
+"Label": "Marina",
+"ValueId": 1098,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 31,
+"TypeId": 6,
+"Label": "Public Parking",
+"ValueId": 1099,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 32,
+"TypeId": 6,
+"Label": "Rescue Mission",
+"ValueId": null,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 0,
+"Value": "N"
+},
+{
+"CalibrationUsesLabelId": 33,
+"TypeId": 6,
+"Label": "Transit Facilities",
+"ValueId": 1100,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 34,
+"TypeId": 7,
+"Label": "Childcare",
+"ValueId": 1101,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 35,
+"TypeId": 7,
+"Label": "College / University",
+"ValueId": 1102,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 36,
+"TypeId": 7,
+"Label": "Elementary School",
+"ValueId": 1103,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 37,
+"TypeId": 7,
+"Label": "Learning Center",
+"ValueId": 1104,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 38,
+"TypeId": 7,
+"Label": "Middle / High School",
+"ValueId": 1105,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 39,
+"TypeId": 7,
+"Label": "Pre - School",
+"ValueId": 1106,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 40,
+"TypeId": 7,
+"Label": "Research Facility",
+"ValueId": 1107,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 1,
+"Value": "R"
+},
+{
+"CalibrationUsesLabelId": 41,
+"TypeId": 7,
+"Label": "Special Training / Vocational",
+"ValueId": 1108,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 2,
+"Value": "W"
+},
+{
+"CalibrationUsesLabelId": 42,
+"TypeId": 8,
+"Label": "Auto - Related Industrial Establs.",
+"ValueId": null,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 0,
+"Value": "N"
+},
+{
+"CalibrationUsesLabelId": 43,
+"TypeId": 8,
+"Label": "Manufacturing and Proccesing",
+"ValueId": null,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 0,
+"Value": "N"
+},
+{
+"CalibrationUsesLabelId": 44,
+"TypeId": 8,
+"Label": "Marine Related Industrial Establs.",
+"ValueId": null,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 0,
+"Value": "N"
+},
+{
+"CalibrationUsesLabelId": 45,
+"TypeId": 8,
+"Label": "Products and Services",
+"ValueId": null,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 0,
+"Value": "N"
+},
+{
+"CalibrationUsesLabelId": 46,
+"TypeId": 8,
+"Label": "Storage / Distribution Facility",
+"ValueId": null,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 0,
+"Value": "N"
+},
+{
+"CalibrationUsesLabelId": 5978,
+"TypeId": 5,
+"Label": "Regional Activity Complex",
+"ValueId": 124054,
+"UseLimit": null,
+"ParkingRequired": null,
+"AllowedUsesId": 3,
+"Value": "E"
+}
+]
+}
+}}

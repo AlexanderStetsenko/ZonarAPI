@@ -1,0 +1,333 @@
+{
+  "testCases" : [ {
+    "uid" : "75baeae2-7aa6-42e5-8c97-1ad5ca73e882",
+    "name" : "checkShapeWidthDepth[Shape number: 828 900]",
+    "title" : "Check Shape Width and Depth",
+    "time" : {
+      "start" : 1500375240859,
+      "stop" : 1500375242970,
+      "duration" : 2111
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a0c4a7a3-29d5-46fe-9ba2-1f0c741415e6",
+    "name" : "checkAppliedVariances[Shape number: 828 900]",
+    "title" : "Check Applied Variances by Id's list",
+    "time" : {
+      "start" : 1500375242970,
+      "stop" : 1500375242979,
+      "duration" : 9
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "8ac0677a-fea4-4f16-8ebc-44619715273c",
+    "name" : "checkZone[Shape number: 828 900]",
+    "title" : "Check Zone and Municipality Names",
+    "time" : {
+      "start" : 1500375242979,
+      "stop" : 1500375242989,
+      "duration" : 10
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "529906ab-ecc5-4c78-8b48-ea3a7baa3ad3",
+    "name" : "loginTest[Login: alex@test.com Password: Qwerty1! ]",
+    "title" : "Login Test with valid Credentials",
+    "time" : {
+      "start" : 1500375235561,
+      "stop" : 1500375239398,
+      "duration" : 3837
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f66933c7-c265-4ab2-9c5c-c9820ef794a2",
+    "name" : "getUserData[Login: alex@test.com Password: Qwerty1! ]",
+    "title" : "Get User Data after Login",
+    "time" : {
+      "start" : 1500375239400,
+      "stop" : 1500375240390,
+      "duration" : 990
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "fd4faf73-9f91-4782-8b39-1dc381eecd4d",
+    "name" : "loginTest[Login: alex@test.com Password: Qwerty1! ]",
+    "title" : "Login Test with valid Credentials",
+    "time" : {
+      "start" : 1500375240390,
+      "stop" : 1500375240551,
+      "duration" : 161
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "80fc21a2-d66f-4f18-81cf-15b0b07dbd98",
+    "name" : "getUserData[Login: alex@test.com Password: Qwerty1! ]",
+    "title" : "Get User Data after Login",
+    "time" : {
+      "start" : 1500375240551,
+      "stop" : 1500375240855,
+      "duration" : 304
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "a04bd9d5-697a-42e9-adfb-6a00d2c4d886",
+    "name" : "checkAllowedFrontageTypeCalibrations[Shape number: 828 900]",
+    "title" : "Check Allowed Frontage Type Calibrations",
+    "time" : {
+      "start" : 1500375249703,
+      "stop" : 1500375251559,
+      "duration" : 1856
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "faba4079-e1d2-4fa0-b06f-16b64414e074",
+    "name" : "lotCoverageTest[Shape number: 828 900]",
+    "title" : "Lot Coverage",
+    "time" : {
+      "start" : 1500375245380,
+      "stop" : 1500375247227,
+      "duration" : 1847
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d57ae88b-0bea-4787-bc19-982a62207b10",
+    "name" : "maxBuildingAreaAllowed[Shape number: 828 900]",
+    "title" : "Max Building Area Allowed",
+    "time" : {
+      "start" : 1500375247227,
+      "stop" : 1500375247228,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5a45606d-e17c-44b7-a83f-f02d6a0e1aab",
+    "name" : "dwellingUnitsAllowedTest[Shape number: 828 900]",
+    "title" : "Dwelling Units Allowed",
+    "time" : {
+      "start" : 1500375247228,
+      "stop" : 1500375247228,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "78173412-7495-4854-8c65-0ed5e31ed812",
+    "name" : "floorAreaRatio[Shape number: 828 900]",
+    "title" : "Floor Area Ratio",
+    "time" : {
+      "start" : 1500375247229,
+      "stop" : 1500375247230,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6aee376e-dd0e-4108-acbb-c5d67ad6426d",
+    "name" : "minOpenSpaceTest[Shape number: 828 900]",
+    "title" : "Minimum Open Space",
+    "time" : {
+      "start" : 1500375247230,
+      "stop" : 1500375247231,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "86b1aedb-ec3b-4296-89b5-8b4bdc7681f0",
+    "name" : "maxOfficeHeightAllowed[Shape number: 828 900]",
+    "title" : "Max Office Height Allowed",
+    "time" : {
+      "start" : 1500375247231,
+      "stop" : 1500375247232,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "de59c9a4-d483-4072-bf68-05f4ac7dcf1b",
+    "name" : "checkMaxCommercialEstablishedArea[Shape number: 828 900]",
+    "title" : "Max Commercial Established Area",
+    "time" : {
+      "start" : 1500375247232,
+      "stop" : 1500375247233,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "311c4476-eb04-419e-b136-a471b2288f55",
+    "name" : "maximumBuiltAreaTest[Shape number: 828 900]",
+    "title" : "Maximum Built Area",
+    "time" : {
+      "start" : 1500375247233,
+      "stop" : 1500375247233,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e06584be-c8a7-4301-9983-592a381d0bc3",
+    "name" : "lotAreaInAcresTest[Shape number: 828 900]",
+    "title" : "Lot Area in Acres",
+    "time" : {
+      "start" : 1500375247234,
+      "stop" : 1500375247235,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8d0a214f-6d87-4368-a9fd-abf7bf4af318",
+    "name" : "lotAreaPRCalculation[Shape number: 828 900]",
+    "title" : "Lot Area (PR) Calculation",
+    "time" : {
+      "start" : 1500375247235,
+      "stop" : 1500375247240,
+      "duration" : 5
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ce632312-1779-4126-a451-57526fa4faad",
+    "name" : "dwellingUnitsperAcreTest[Shape number: 828 900]",
+    "title" : "Dwelling Units per Acre",
+    "time" : {
+      "start" : 1500375247241,
+      "stop" : 1500375247243,
+      "duration" : 2
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "132c0274-9cfb-4066-8943-7d0446601ae1",
+    "name" : "maxCommercialAreaAllowed[Shape number: 828 900]",
+    "title" : "Max Commercial Area Allowed",
+    "time" : {
+      "start" : 1500375247243,
+      "stop" : 1500375247244,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5e5ced84-8c5e-4141-bdf6-ee23b37b63b6",
+    "name" : "maxCommercialHeight[Shape number: 828 900]",
+    "title" : "Max Commercial Height",
+    "time" : {
+      "start" : 1500375247245,
+      "stop" : 1500375247245,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f6917c67-f7c6-422d-8e34-58eb9eb539ac",
+    "name" : "principalBuildingMinHeightPodiumTest[Shape number: 828 900]",
+    "title" : "Principal Building Min. Height (Podium)",
+    "time" : {
+      "start" : 1500375247246,
+      "stop" : 1500375247246,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c954b072-8740-4cff-9936-b4d1113dda89",
+    "name" : "principalBuildingMaxHeightPodiumTest[Shape number: 828 900]",
+    "title" : "Principal Building Max. Height (Podium)",
+    "time" : {
+      "start" : 1500375247246,
+      "stop" : 1500375247247,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a922e706-d031-4a40-b0fd-01bf9c5566f0",
+    "name" : "principalTowerHeight[Shape number: 828 900]",
+    "title" : "Principal Tower Height",
+    "time" : {
+      "start" : 1500375247248,
+      "stop" : 1500375247248,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "1bfa15b4-6b31-4eed-ac01-c34898f9ae51",
+    "name" : "usesFromCalibrationsWithoutVariancesTest[Shape number: 828 900]",
+    "title" : "Uses from Calibrations Without Variances",
+    "time" : {
+      "start" : 1500375247473,
+      "stop" : 1500375249481,
+      "duration" : 2008
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "56052225-c826-4051-b1e4-a5636300f555",
+    "name" : "usesFromCalibrationsTest[Shape number: 828 900]",
+    "title" : "Uses from Calibrations",
+    "time" : {
+      "start" : 1500375249481,
+      "stop" : 1500375249482,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "abfefe94-067c-479e-9854-1b3175c8df6a",
+    "name" : "usesFromOriginalCalibrationsTest[Shape number: 828 900]",
+    "title" : "Uses from Original Calibrations",
+    "time" : {
+      "start" : 1500375249482,
+      "stop" : 1500375249484,
+      "duration" : 2
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "83113d20-8ccb-4b8d-b263-1fd0cd54c88e",
+    "name" : "checkZoneCodes[Shape number: 828 900]",
+    "title" : "Check Zone Codes",
+    "time" : {
+      "start" : 1500375243209,
+      "stop" : 1500375245158,
+      "duration" : 1949
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d69c6477-3385-48b9-a76a-9d231f8c22e0",
+    "name" : "checkProjectOwner[Shape number: 828 900]",
+    "title" : "Check Project Owner",
+    "time" : {
+      "start" : 1500375245158,
+      "stop" : 1500375245159,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "221ebc6c-c984-41d2-8c76-935d01595359",
+    "name" : "checkProjectName[Shape number: 828 900]",
+    "title" : "Check Project Name",
+    "time" : {
+      "start" : 1500375245159,
+      "stop" : 1500375245162,
+      "duration" : 3
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

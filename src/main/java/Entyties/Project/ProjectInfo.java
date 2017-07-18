@@ -14,7 +14,6 @@ public class ProjectInfo {
     @JsonProperty("Name")
     private String name;
 
-
     @JsonProperty("Owner")
     private int owner;
 

@@ -1,0 +1,13 @@
+Tests\CalculationTests\BuildingTests\ZoningAllowence\MaximumLotCapacityTests.class
+TestSuite\AllTestSuite.class
+TestSuite\LoginSuite.class
+TestSuite\BuildingSuite.class
+Tests\AccountTests\BaseAcountTest.class
+Tests\CalculationTests\BuildingTests\ZoningAllowence\AllowedFrontageTypes.class
+Tests\BaseTest.class
+Tests\CalculationTests\ProjectTests\ProjectGeneralInformationTests.class
+Tests\CalculationTests\BuildingTests\ZoningAllowence\UsesTest.class
+Tests\CalculationTests\BaseProjectTest.class
+Tests\AccountTests\Login.class
+Tests\CalculationTests\BuildingTests\BuildingTests.class
+Tests\CalculationTests\BuildingTests\ZoningAllowence\ZoningAllowancesTests.class
