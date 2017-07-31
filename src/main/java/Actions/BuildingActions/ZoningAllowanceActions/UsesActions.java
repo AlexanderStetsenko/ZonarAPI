@@ -1,5 +1,5 @@
 
-package Actions.BuildingActions;
+package Actions.BuildingActions.ZoningAllowanceActions;
 
 import Actions.BaseAction;
 import Entyties.Project.Development.BuildingWrapper.CalibrationData.ZcCalibrations.Uses.UsesRow;

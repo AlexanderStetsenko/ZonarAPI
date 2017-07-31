@@ -1,9 +1,9 @@
 package Tests.CalculationTests;
 
-import Actions.BuildingActions.AllowedFrontagesTypeActions;
-import Actions.BuildingActions.BuildingActions;
-import Actions.BuildingActions.MaxCapacityActions;
-import Actions.BuildingActions.UsesActions;
+import Actions.BuildingActions.*;
+import Actions.BuildingActions.ZoningAllowanceActions.AllowedFrontagesTypeActions;
+import Actions.BuildingActions.ZoningAllowanceActions.MaxCapacityActions;
+import Actions.BuildingActions.ZoningAllowanceActions.UsesActions;
 import Actions.ProjectCreationAction;
 import Actions.UserAction;
 import Entyties.Entity;
@@ -22,13 +22,13 @@ import java.util.Arrays;
 
 @RunWith(Parameterized.class)
 public class BaseProjectTest extends BaseTest {
-
     protected static BuildingActions buildingActions = new BuildingActions();
     protected static MaxCapacityActions maxCapacityActions = new MaxCapacityActions();
     protected static ProjectCreationAction projectCreationAction = new ProjectCreationAction();
     protected AllowedFrontagesTypeActions allowedFrontageTypeActions = new AllowedFrontagesTypeActions();
     protected static UsesActions usesActions = new UsesActions();
     protected static OpenProjectResponse project;
+
     @Parameterized.Parameter
     public int shapeId;
     @Parameterized.Parameter(1)
@@ -37,11 +37,12 @@ public class BaseProjectTest extends BaseTest {
 
     @Parameterized.Parameters(name = "Shape number: {0}")
     public static Iterable<Object[]> dataForTest() {
-        return Arrays.asList(new Object[][]
-                {
-                    {MySettings.testSettings.getShapes().get(0),
-                    projectExpected = projectCreationAction.createProjectObjectFromJson(new File(MySettings.getTestSettings().getFilePath().get(0)))
-                 },
+
+        return Arrays.asList(new Object[][]{
+        /*1*/                {MySettings.testSettings.getShapes().get(0),
+                                projectExpected = projectCreationAction.createProjectObjectFromJson(new File(MySettings.getTestSettings().getFilePath().get(0)))},
+       /* *//*2*//*                {MySettings.testSettings.getShapes().get(1),
+                                projectExpected = projectCreationAction.createProjectObjectFromJson(new File(MySettings.getTestSettings().getFilePath().get(1)))},*/
         });
     }
 

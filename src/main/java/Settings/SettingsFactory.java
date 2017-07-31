@@ -13,10 +13,10 @@ public class SettingsFactory {
     public static MySettings getSettingsProperty(String settingName, MySettings settings){
     switch(settingName) {
         case "base":
-            settings = (MySettings) JsonConverter.getObjectFromFile(new File("D:\\Project\\ZonarAPI\\src\\test\\resources\\base.json"), settings);
+            settings = (MySettings) JsonConverter.getObjectFromFile(new File("src\\test\\resources\\base.json"), settings);
             return settings;
         default:
-            return (MySettings) JsonConverter.getObjectFromFile(new File("D:\\Project\\ZonarAPI\\src\\test\\resources\\base.json"), settings);
+            return (MySettings) JsonConverter.getObjectFromFile(new File("src\\test\\resources\\base.json"), settings);
         }
     }
 }

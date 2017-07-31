@@ -1,5 +1,6 @@
 package Entyties.Project.Development.BuildingWrapper;
 
+import Entyties.Project.Development.BuildingWrapper.AnalyzeData.AnalyzeData;
 import Entyties.Project.Development.BuildingWrapper.BuildingEnvelope.BuildingEnvelope;
 import Entyties.Project.Development.BuildingWrapper.BuildingObject.BuildingObject;
 import Entyties.Project.Development.BuildingWrapper.CalibrationData.CalibrationData;
@@ -26,6 +27,9 @@ public class BuildingsWrappers {
 
     @JsonProperty("CalibrationData")
     CalibrationData calibrationData;
+
+    @JsonProperty("AnalyzeData")
+    AnalyzeData analyzeData;
 
     public BuildingsWrappers() {
     }
@@ -67,6 +71,14 @@ public class BuildingsWrappers {
         this.calibrationData = calibrationData;
     }
 
+    public AnalyzeData getAnalyzeData() {
+        return analyzeData;
+    }
+
+    public void setAnalyzeData(AnalyzeData analyzeData) {
+        this.analyzeData = analyzeData;
+    }
+
     @Override
     public String toString() {
         return "BuildingsWrappers{" +
@@ -74,6 +86,9 @@ public class BuildingsWrappers {
                 ", buildingObject=" + buildingObject +
                 ", buildingEnvelope=" + buildingEnvelope +
                 ", calibrationData=" + calibrationData +
+                ", analyzeData=" + analyzeData +
                 '}';
     }
+
+
 }

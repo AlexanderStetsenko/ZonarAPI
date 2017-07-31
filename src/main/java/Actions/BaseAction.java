@@ -2,18 +2,28 @@ package Actions;
 
 import Entyties.Project.Development.BuildingWrapper.BuildingObject.BuildingObject;
 import Entyties.Project.Development.BuildingWrapper.BuildingObject.GeneralInformation.GeneralInformation;
+import Entyties.Project.Development.BuildingWrapper.BuildingObject.ZoningAllowances.ZoningAllowances;
 import Entyties.Project.Development.BuildingWrapper.BuildingsWrappers;
 import Entyties.Project.Development.BuildingWrapper.CalibrationData.ZcCalibrations.Uses.Uses;
 import Entyties.Project.Development.BuildingWrapper.CalibrationData.ZcCalibrations.ZcCalibrations;
 import Entyties.Responses.OpenProjectResponse;
 import Services.JsonConverter;
+import Services.MyAssertation;
+import org.hamcrest.BaseMatcher;
+import org.hamcrest.Matcher;
+import org.hamcrest.core.Is;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
 
 public class BaseAction {
     JsonConverter jsonConverter = new JsonConverter();
-
+    protected MyAssertation myAssertation = new MyAssertation();
 
     protected BuildingObject getBuilding(OpenProjectResponse project){
 
@@ -66,6 +76,15 @@ public class BaseAction {
         Uses uses = getZcCalibrationsWithoutVariances(project).getUses();
         return uses;
     }
+
+    /*Zoning Allowance*/
+    protected ZoningAllowances getZoningAllowance(OpenProjectResponse project){
+        ZoningAllowances zoningAllowances = getBuilding(project).getZoningAllowances();
+        return zoningAllowances;
+    }
+
+
+
 
 
 

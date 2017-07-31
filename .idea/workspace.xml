@@ -1,247 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a927b135-a48f-4055-8657-9fccec2e5ea5" name="Default" comment="Commit 23.06">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Actions/BaseAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Actions/ProjectCreationAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Actions/UserAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/Entity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/Project/Development/Development.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/Project/Development/DevelopmentsWrappers.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/Project/Project.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/Project/ProjectInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/Project/ProjectZoningCodes/ProjectZoningCodes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/Responses/CreateProjectResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/Responses/LoginResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/Responses/OpenProjectResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/User/Data.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Entyties/User/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/HTTP/RequestBase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/HTTP/Requests/AccountArea/GetUserDataRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/HTTP/Requests/AccountArea/UserLoginRequests.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/HTTP/Requests/Project/ProjectCalculation/BuildingCalculationRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/HTTP/Requests/Project/ProjectCreation/CreateProjectRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/HTTP/Requests/Project/ProjectCreation/DeleteProjectRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/HTTP/Requests/Project/ProjectCreation/OpenProjectRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Services/JsonConverter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Services/Log4j.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Services/MyString.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/ru.yandex.qatools.allure-allure-report-face-war-1.3.6.marker" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/flash/clippy.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/img/allure-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/img/tests_passed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/collapsed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/expanded.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/external.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/newwindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/TestSuite/AllTestSuite.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/TestSuite/BuildingSuite.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/TestSuite/LoginSuite.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/Tests/AccountTests/BaseAcountTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/Tests/AccountTests/Login.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/AllowedFrontagesTypeActions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/BuildingActions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/MaxCapacityActions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/UsesActions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingEnvelope/BuildingEnvelope.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingEnvelope/EntityDBSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/GeneralInformation/Addresses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/GeneralInformation/GeneralInformation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/CalibrationData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/Bonus/Bonus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/Bonus/BonusRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/Calibration/Calibrations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/GeneralInfo/GeneralInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/GeneralInfo/GeneralInfoRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/OfficeCommercial/OfficeCommercial.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/OfficeCommercial/OfficeCommercialRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/Parking/Parking.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/Parking/ParkingRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/SetbackConditions/EntityDBSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/SetbackConditions/SetbackConditions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/SetbackConditions/SetbackConditionsRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/Uses/Uses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/Uses/UsesRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/ZcCalibrations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/ZoneCombination/ZoneCombination.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/ZoneCombination/ZoneCombinationRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Settings/MySettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Settings/RequestSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Settings/SettingsFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Settings/TestSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BaseProjectTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/BuildingTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/AllowedFrontageTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/MaximumLotCapacityTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/UsesTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/ZoningAllowancesTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/Project/169eFlagler.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/Project/temp.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/base.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/META-INF/maven/ru.yandex.qatools.allure/allure-report-face/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/META-INF/maven/ru.yandex.qatools.allure/allure-report-face/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behavior.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/defects.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/xunit.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/charts/charts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/charts/duration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/charts/pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/charts/severityMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/charts/timeline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/defects/defects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/features/FeaturesCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/pane/pane.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/scrollfix/scrollfix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/table/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/testcase/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/testcase/provider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/testcase/statusSwitcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/testcase/testcase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/js/xUnit/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/defects.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/features.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/graph.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/table/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/testcase/attachment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/testcase/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/testcase/status-switcher.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/testcase/testcase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/testcase/testcaseView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/timeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/xUnit/testrun.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/templates/xUnit/testsuite.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-animate.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-cookies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-cookies.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-cookies.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-loader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-loader.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-resource.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-route.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-sanitize.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-touch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-touch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular-touch.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/errors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/plugins/angular-route-segment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/plugins/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/plugins/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/plugins/localstorageprovider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/plugins/ui-bootstrap-tpls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/plugins/ui-bootstrap-tpls.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/version.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/angular/version.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/d3/d3.v3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/d3/d3.v3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/jquery/jquery-2.0.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/jquery/jquery-2.0.3.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/rainbow/rainbow-json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/rainbow/rainbow-xml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/vendor/rainbow/rainbow.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/maven-base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/maven-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/project-reports.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.AllTestSuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.AllTestSuite.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/Project/project829031" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/Project/project858778" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/Project/projectCreationBody.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/HTTP/RequestInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Tests/ProjectTests/BaseProjectTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Tests/ProjectTests/BuildingTests/BuildingTests.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="a927b135-a48f-4055-8657-9fccec2e5ea5" name="Default" comment="18.07">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/FrontagesActions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/ZoningAllowancesActions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/AnalyzeData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Services/MyAssertation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Rule/MyVirifierRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/FrontagesTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/ZoningAllowancesTests.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/ZoningAllowancesTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/Project/project829031" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/Project/project858778" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/Project/projectCreationBody.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/Project/temp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Project/project829031" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Project/project858778" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Project/projectCreationBody.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Actions/BaseAction.class" afterPath="$PROJECT_DIR$/target/classes/Actions/BaseAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestSuite/BuildingSuite.class" afterPath="$PROJECT_DIR$/target/test-classes/TestSuite/BuildingSuite.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZonarAPI.iml" afterPath="$PROJECT_DIR$/ZonarAPI.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Actions/BaseAction.java" afterPath="$PROJECT_DIR$/src/main/java/Actions/BaseAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Actions/ProjectCreationAction.java" afterPath="$PROJECT_DIR$/src/main/java/Actions/ProjectCreationAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Actions/UserAction.java" afterPath="$PROJECT_DIR$/src/main/java/Actions/UserAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Entity.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Entity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/DevelopmentsWrappers.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/DevelopmentsWrappers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Project.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Project.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/ProjectInfo.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/ProjectInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/ProjectZoningCodes/ProjectZoningCodes.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/ProjectZoningCodes/ProjectZoningCodes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Responses/LoginResponse.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Responses/LoginResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entyties/User/Data.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/User/Data.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HTTP/RequestBase.java" afterPath="$PROJECT_DIR$/src/main/java/HTTP/RequestBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HTTP/Requests/AccountArea/GetUserDataRequest.java" afterPath="$PROJECT_DIR$/src/main/java/HTTP/Requests/AccountArea/GetUserDataRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HTTP/Requests/AccountArea/UserLoginRequests.java" afterPath="$PROJECT_DIR$/src/main/java/HTTP/Requests/AccountArea/UserLoginRequests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/CreateProjectRequest.java" afterPath="$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/CreateProjectRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/DeleteProjectRequest.java" afterPath="$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/DeleteProjectRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/OpenProjectRequest.java" afterPath="$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/OpenProjectRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/BuildingActions.java" afterPath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/BuildingActions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingsWrappers.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingsWrappers.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Services/JsonConverter.java" afterPath="$PROJECT_DIR$/src/main/java/Services/JsonConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Settings/MySettings.java" afterPath="$PROJECT_DIR$/src/main/java/Settings/MySettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Settings/SettingsFactory.java" afterPath="$PROJECT_DIR$/src/main/java/Settings/SettingsFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestSuite/BuildingSuite.java" afterPath="$PROJECT_DIR$/src/test/java/TestSuite/BuildingSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests/AccountTests/BaseAcountTest.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/AccountTests/BaseAcountTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests/AccountTests/Login.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/AccountTests/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Project/project829031" afterPath="$PROJECT_DIR$/src/test/resources/Project/project829031" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Project/project858778" afterPath="$PROJECT_DIR$/src/test/resources/Project/project858778" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Project/projectCreationBody.json" afterPath="$PROJECT_DIR$/src/test/resources/Project/projectCreationBody.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/Building/Building.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/Building/Building.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/BuildingObject.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/BuildingObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/BuildingParameter/BuildingParameter.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/BuildingParameter/BuildingParameter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/BuildingsWrappers.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingsWrappers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/CapacityAnalisis/CapacityAnalysis.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/CapacityAnalisis/CapacityAnalysis.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/CapacityAnalisis/Modules.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/CapacityAnalisis/Modules.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/CapacityAnalisis/ParkingDimensions.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/CapacityAnalisis/ParkingDimensions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/CapacityAnalisis/SharedParking.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/CapacityAnalisis/SharedParking.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/Variances/Override.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/Variances/Override.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/Variances/SpecialPermit.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/Variances/SpecialPermit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/Variances/Variance.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/Variances/Variance.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/Variances/Variances.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/Variances/Variances.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/Variances/Waiver.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/Variances/Waiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/ZoningAllowances/Modules.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/ZoningAllowances/Modules.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingObject/ZoningAllowances/ZoningAllowances.java" afterPath="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/ZoningAllowances/ZoningAllowances.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Tests/ProjectTests/ProjectGeneralInformationTests.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/ProjectTests/ProjectGeneralInformationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BaseProjectTest.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BaseProjectTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/BuildingTests.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/BuildingTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Project/169eFlagler.json" afterPath="$PROJECT_DIR$/src/test/resources/Project/169eFlagler.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/base.json" afterPath="$PROJECT_DIR$/src/test/resources/base.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin.html" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behavior.json" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behavior.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/defects.json" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/defects.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/xunit.json" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/xunit.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/project-reports.html" afterPath="$PROJECT_DIR$/target/site/project-reports.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.AllTestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.AllTestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.AllTestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.AllTestSuite.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/AllowedFrontagesTypeActions.java" afterPath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/AllowedFrontagesTypeActions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/MaxCapacityActions.java" afterPath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/MaxCapacityActions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/UsesActions.java" afterPath="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/UsesActions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/AllowedFrontageTypes.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/AllowedFrontageTypesTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/MaximumLotCapacityTests.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/MaximumLotCapacityTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/UsesTest.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/UsesTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -264,187 +75,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProjectCreationAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Actions/ProjectCreationAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="53" column="68" lean-forward="false" selection-start-line="53" selection-start-column="68" selection-end-line="53" selection-end-column="68" />
-              <folding>
-                <element signature="method#createProjectObjectFromJson#0;class#ProjectCreationAction#0" expanded="false" />
-                <element signature="method#createProject#0;class#ProjectCreationAction#0" expanded="false" />
-                <element signature="method#checkProjectName#0;class#ProjectCreationAction#0" expanded="false" />
-                <element signature="method#checkProjectOwner#0;class#ProjectCreationAction#0" expanded="false" />
-                <element signature="method#checkZoneCodeName#0;class#ProjectCreationAction#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenProjectResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Responses/OpenProjectResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding>
-                <element signature="method#toString#0;class#OpenProjectResponse#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateProjectRequest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/CreateProjectRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildingCalculationRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCalculation/BuildingCalculationRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenProjectRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/OpenProjectRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/RequestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="51" column="72" lean-forward="true" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/base.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="169eFlagler.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/Project/169eFlagler.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="66" column="39" lean-forward="true" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-              <folding>
-                <element signature="n#!!block;n#Project#0;n#!!block;n#Project#0;n#!!top" expanded="false" />
-                <element signature="e#460#695#0" expanded="false" />
-                <element signature="e#5189#9873#0" expanded="false" />
-                <element signature="e#6210#6350#0" expanded="false" />
-                <element signature="e#6379#6668#0" expanded="false" />
-                <element signature="e#6704#9857#0" expanded="false" />
-                <element signature="e#9910#10985#0" expanded="false" />
-                <element signature="e#11023#11474#0" expanded="false" />
-                <element signature="e#11511#11702#0" expanded="false" />
-                <element signature="e#11729#11788#0" expanded="false" />
-                <element signature="e#11824#27380#0" expanded="false" />
-                <element signature="e#11908#12273#0" expanded="false" />
-                <element signature="e#12319#12681#0" expanded="false" />
-                <element signature="e#12727#13089#0" expanded="false" />
-                <element signature="e#13125#13487#0" expanded="false" />
-                <element signature="e#13523#13885#0" expanded="false" />
-                <element signature="e#13921#14286#0" expanded="false" />
-                <element signature="e#14320#14686#0" expanded="false" />
-                <element signature="e#14721#15083#0" expanded="false" />
-                <element signature="e#15117#15487#0" expanded="false" />
-                <element signature="e#15522#15888#0" expanded="false" />
-                <element signature="e#15922#16287#0" expanded="false" />
-                <element signature="e#16332#16696#0" expanded="false" />
-                <element signature="e#16740#17104#0" expanded="false" />
-                <element signature="e#17145#17510#0" expanded="false" />
-                <element signature="e#17539#17904#0" expanded="false" />
-                <element signature="e#17958#18325#0" expanded="false" />
-                <element signature="e#18369#18735#0" expanded="false" />
-                <element signature="e#18769#19134#0" expanded="false" />
-                <element signature="e#19185#19553#0" expanded="false" />
-                <element signature="e#19603#19970#0" expanded="false" />
-                <element signature="e#20023#20390#0" expanded="false" />
-                <element signature="e#20442#20809#0" expanded="false" />
-                <element signature="e#20858#21225#0" expanded="false" />
-                <element signature="e#21273#21640#0" expanded="false" />
-                <element signature="e#21677#22044#0" expanded="false" />
-                <element signature="e#22086#22453#0" expanded="false" />
-                <element signature="e#22486#22854#0" expanded="false" />
-                <element signature="e#22883#23251#0" expanded="false" />
-                <element signature="e#23284#23652#0" expanded="false" />
-                <element signature="e#23683#24050#0" expanded="false" />
-                <element signature="e#24080#24447#0" expanded="false" />
-                <element signature="e#24481#24680#0" expanded="false" />
-                <element signature="e#24736#25162#0" expanded="false" />
-                <element signature="e#64370#64627#0" expanded="false" />
-                <element signature="e#64656#64751#0" expanded="false" />
-                <element signature="e#64807#68895#0" expanded="false" />
-                <element signature="e#72958#163116#0" expanded="false" />
-                <element signature="e#163179#163736#0" expanded="false" />
-                <element signature="e#163807#164450#0" expanded="false" />
-                <element signature="e#164477#164867#0" expanded="false" />
-                <element signature="e#164528#164849#0" expanded="false" />
-                <element signature="e#164900#168224#0" expanded="false" />
-                <element signature="e#168262#168715#0" expanded="false" />
-                <element signature="e#168744#169619#0" expanded="false" />
-                <element signature="e#169658#172791#0" expanded="false" />
-                <element signature="e#171263#172753#0" expanded="false" />
-                <element signature="e#172817#191159#0" expanded="false" />
-                <element signature="e#191254#191897#0" expanded="false" />
-                <element signature="e#191313#191879#0" expanded="false" />
-                <element signature="e#191924#192327#0" expanded="false" />
-                <element signature="e#195661#196114#0" expanded="false" />
-                <element signature="e#196143#197019#0" expanded="false" />
-                <element signature="e#197058#200191#0" expanded="false" />
-                <element signature="e#200217#218559#0" expanded="false" />
-                <element signature="e#218662#219305#0" expanded="false" />
-                <element signature="e#219332#219732#0" expanded="false" />
-                <element signature="e#219765#223089#0" expanded="false" />
-                <element signature="e#223127#223580#0" expanded="false" />
-                <element signature="e#223609#224484#0" expanded="false" />
-                <element signature="e#224523#227656#0" expanded="false" />
-                <element signature="e#246083#307782#0" expanded="false" />
-                <element signature="e#307846#308341#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllowedFrontagesTypeActions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/AllowedFrontagesTypeActions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getGeneralInformationRow#0;class#AllowedFrontagesTypeActions#0" expanded="false" />
-                <element signature="method#checkFrontegeType#0;class#AllowedFrontagesTypeActions#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllowedFrontageTypes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/AllowedFrontageTypes.java">
+      <file leaf-file-name="ZoningAllowancesTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/ZoningAllowancesTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="130" column="31" lean-forward="false" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/UsesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumLotCapacityTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/MaximumLotCapacityTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllowedFrontageTypesTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/AllowedFrontageTypesTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Settings/TestSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+              <folding>
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Settings/SettingsFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestSettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Settings/RequestSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Settings/MySettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -463,16 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>varia</find>
-      <find>variancesid</find>
-      <find>variancesId</find>
-      <find>tower</find>
-      <find>principalTowerHeight</find>
-      <find>maxBuildingAreaAllowed</find>
-      <find>@Test</find>
-      <find>MaxOfficeHeightAllowed</find>
-      <find>maxCommercialAreaAllowed</find>
-      <find>assertThat(getBuildingWrapper(projectExpected).getBuildingEnvelope().getMaxCommercialAreaAllowed(),                 equalTo(getBuildingWrapper(project).getBuildingEnvelope().getMaxCommercialAreaAllowed()));</find>
       <find>FloorAreaRatio</find>
       <find>densityNet</find>
       <find>1166</find>
@@ -490,9 +208,19 @@
       <find>Forecourt</find>
       <find>miami</find>
       <find>PorchAndFence</find>
-      <find>CommonLawn</find>
       <find>Variances</find>
       <find>Variancesid</find>
+      <find>CommonLawn</find>
+      <find>PrimaryFrontageA</find>
+      <find>Frontages</find>
+      <find>72</find>
+      <find>thoroughfareWidth</find>
+      <find>ThoroughfareWidth</find>
+      <find>AnalyzeData</find>
+      <find>original</find>
+      <find>origina</find>
+      <find>seg</find>
+      <find>lab</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -522,57 +250,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/Uses/Uses.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/BuildingActions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingsWrappers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/GeneralInfo/GeneralInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/GeneralInfo/GeneralInfoRow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/CalibrationData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/Uses/UsesRow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/UsesActions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Services/JsonConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Settings/RequestSettings.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/MaximumLotrCapacityTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/ProjectTests/ProjectGeneralInformationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entyties/Entity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entyties/User/Data.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Settings/Temp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Settings/TestSettings.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/UsesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entyties/Responses/LoginResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/UserAction.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/MaximumLotCapacityTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/HTTP/ApiEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Settings/SettingsFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/DeleteProjectRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/HTTP/Requests/AccountArea/UserLoginRequests.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/AccountTests/Login.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/HTTP/RequestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/AllowedFronteges.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/AllowedFrontegesType.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/AllowedFrontegeTypes.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BaseProjectTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Actions/BaseAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/AllowedFrontegesTypeActions.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/AllowedFrontAgesTypeActions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestSuite/BuildingSuite.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/AllowedFrontageTypes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/AllowedFrontagesTypeActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/AccountTests/BaseAcountTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/Project/169eFlanger.json" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/AllowedFrontageTypes.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/ZoningAllowencesTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/ZoningAllowances/ZoningAllowances.java" />
         <option value="$PROJECT_DIR$/src/test/resources/Project/projectCreationBody.json" />
-        <option value="$PROJECT_DIR$/src/main/java/Settings/MySettings.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/BuildingTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/ZoningAllowancesTests.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/base.json" />
         <option value="$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/OpenProjectRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/CreateProjectRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/AllowedFrontagesTypeActions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/AllowedFrontageTypes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/AllowedFrontageTypesTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Actions/BaseAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Settings/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Services/MyAssertation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Rule/VirifierRule.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Rule/NyVirifierRule.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Rule/MyVirifierRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/BuildingActions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowancesActions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/ZoningAllowancesTests.java" />
         <option value="$PROJECT_DIR$/src/test/resources/Project/169eFlagler.json" />
+        <option value="$PROJECT_DIR$/src/test/resources/Project/169eFlanger.json" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BaseProjectTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/OppositeSegment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/OriginalFrontagesItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/OriginalFrontages.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/Project/temp.json" />
+        <option value="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/UsesActions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingsWrappers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/AnalyzeData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestSuite/BuildingSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/FrontagesActions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/FrontagesTests.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/base.json" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/BuildingTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Settings/SettingsFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Settings/MySettings.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -612,7 +340,7 @@
     <option name="x" value="56" />
     <option name="y" value="-8" />
     <option name="width" value="1872" />
-    <option name="height" value="1096" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -745,8 +473,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -772,84 +501,9 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZonarAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZonarAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZonarAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZonarAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZonarAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZonarAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entyties" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -869,34 +523,61 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\AnalyzeData\OriginalFrontages" />
       <recent name="D:\Project\ZonarAPI\src\test\resources\Project" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Actions.BuildingActions" />
       <recent name="Entyties.Project.Development.BuildingWrapper.CalibrationData.ZcCalibrations" />
       <recent name="Entyties.Project.Development.BuildingWrapper.CalibrationData" />
       <recent name="Entyties.Project.Development.BuildingObject.ZoningAllowances" />
       <recent name="Entyties.Project.Development.Building" />
-      <recent name="Entyties.Project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\ZonarAPI\src\test\resources" />
       <recent name="D:\Project\ZonarAPI\src\test\resources\Project" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BuildingTests.checkShapeWidthDepth">
-    <configuration default="false" name="AllowedFrontageTypes.checkAllowedFrontageTypeCalibrations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BuildingSuite">
+    <configuration default="false" name="ZoningAllowancesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Tests.CalculationTests.BuildingTests.ZoningAllowence.*" />
+          <option name="PATTERN" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ZonarAPI" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowence" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowence.AllowedFrontageTypes" />
-      <option name="METHOD_NAME" value="checkAllowedFrontageTypeCalibrations" />
+      <option name="PACKAGE_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" />
+      <option name="METHOD_NAME" value="checkZoneParameters" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="[Shape number: 828 900]" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ZoningAllowancesTests.checkIsIrregular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ZonarAPI" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" />
+      <option name="METHOD_NAME" value="checkIsIrregular" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -910,35 +591,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ZonarAPI" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="AllowedFrontageTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FrontagesTests.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Tests.CalculationTests.BuildingTests.ZoningAllowence.*" />
+          <option name="PATTERN" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ZonarAPI" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowence" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowence.AllowedFrontageTypes" />
-      <option name="METHOD_NAME" value="checkAllowedFrontageTypeCalibrations" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.FrontagesTests" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -951,18 +617,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BuildingTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FrontagesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Tests.CalculationTests.BuildingTests.*" />
+          <option name="PATTERN" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ZonarAPI" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Tests.CalculationTests.BuildingTests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CalculationTests.BuildingTests.BuildingTests" />
+      <option name="PACKAGE_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.FrontagesTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -977,20 +643,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BuildingTests.checkShapeWidthDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BuildingSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Tests.CalculationTests.BuildingTests.*" />
+          <option name="PATTERN" value="TestSuite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ZonarAPI" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Tests.CalculationTests.BuildingTests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CalculationTests.BuildingTests.BuildingTests" />
-      <option name="METHOD_NAME" value="checkShapeWidthDepth" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="TestSuite" />
+      <option name="MAIN_CLASS_NAME" value="TestSuite.BuildingSuite" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1225,19 +891,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.LoginSuite" />
       <item index="1" class="java.lang.String" itemvalue="Maven.ZonarAPI [test]" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AllowedFrontageTypes.checkAllowedFrontageTypeCalibrations" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AllowedFrontageTypes" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.BuildingTests" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.BuildingTests.checkShapeWidthDepth" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ZoningAllowancesTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ZoningAllowancesTests.checkIsIrregular" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FrontagesTests.name" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.FrontagesTests" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.BuildingSuite" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BuildingTests.checkShapeWidthDepth" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BuildingTests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AllowedFrontageTypes" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AllowedFrontageTypes.checkAllowedFrontageTypeCalibrations" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BuildingSuite" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FrontagesTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FrontagesTests.name" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ZoningAllowancesTests" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ZoningAllowancesTests.checkIsIrregular" />
       </list>
     </recent_temporary>
   </component>
@@ -1275,61 +941,68 @@
       <option name="project" value="LOCAL" />
       <updated>1498837645117</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="18.07">
+      <created>1500376076098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1500376076098</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllowedFrontageTypes - 2017.07.14 at 13h 19m 52s.xml">
-      <configuration name="AllowedFrontageTypes" configurationId="JUnit" />
+    <history-entry file="BuildingSuite - 2017.07.31 at 11h 54m 46s.xml">
+      <configuration name="BuildingSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllowedFrontageTypes - 2017.07.14 at 13h 21m 18s.xml">
-      <configuration name="AllowedFrontageTypes" configurationId="JUnit" />
+    <history-entry file="BuildingSuite - 2017.07.31 at 11h 55m 42s.xml">
+      <configuration name="BuildingSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuildingTests - 2017.07.18 at 13h 24m 38s.xml">
-      <configuration name="BuildingTests" configurationId="JUnit" />
+    <history-entry file="BuildingSuite - 2017.07.31 at 11h 56m 12s.xml">
+      <configuration name="BuildingSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuildingTests_checkShapeWidthDepth - 2017.07.18 at 13h 25m 31s.xml">
-      <configuration name="BuildingTests.checkShapeWidthDepth" configurationId="JUnit" />
+    <history-entry file="BuildingSuite - 2017.07.31 at 12h 48m 49s.xml">
+      <configuration name="BuildingSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuildingTests_checkShapeWidthDepth - 2017.07.18 at 13h 26m 33s.xml">
-      <configuration name="BuildingTests.checkShapeWidthDepth" configurationId="JUnit" />
+    <history-entry file="ZoningAllowancesTests - 2017.07.19 at 13h 38m 02s.xml">
+      <configuration name="ZoningAllowancesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuildingTests_checkShapeWidthDepth - 2017.07.18 at 13h 43m 23s.xml">
-      <configuration name="BuildingTests.checkShapeWidthDepth" configurationId="JUnit" />
+    <history-entry file="ZoningAllowancesTests - 2017.07.19 at 14h 55m 32s.xml">
+      <configuration name="ZoningAllowancesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuildingTests_checkShapeWidthDepth - 2017.07.18 at 13h 47m 06s.xml">
-      <configuration name="BuildingTests.checkShapeWidthDepth" configurationId="JUnit" />
+    <history-entry file="ZoningAllowancesTests - 2017.07.19 at 14h 56m 48s.xml">
+      <configuration name="ZoningAllowancesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuildingTests_checkShapeWidthDepth - 2017.07.18 at 13h 49m 57s.xml">
-      <configuration name="BuildingTests.checkShapeWidthDepth" configurationId="JUnit" />
+    <history-entry file="ZoningAllowancesTests - 2017.07.19 at 15h 01m 27s.xml">
+      <configuration name="ZoningAllowancesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSuite - 2017.07.18 at 13h 20m 15s.xml">
-      <configuration name="LoginSuite" configurationId="JUnit" />
+    <history-entry file="ZoningAllowancesTests - 2017.07.19 at 15h 05m 10s.xml">
+      <configuration name="ZoningAllowancesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSuite - 2017.07.18 at 13h 22m 01s.xml">
-      <configuration name="LoginSuite" configurationId="JUnit" />
+    <history-entry file="ZoningAllowancesTests - 2017.07.19 at 15h 10m 34s.xml">
+      <configuration name="ZoningAllowancesTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="23298000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-8" width="1872" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="56" y="-8" width="1872" height="1084" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.49779248" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32864866" sideWeight="0.49779248" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38313767" sideWeight="0.5022075" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.012141281" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276414" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42049092" sideWeight="0.49779248" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37353256" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756758" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46702704" sideWeight="0.49779248" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33405405" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23785871" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2615894" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1379,7 +1052,8 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="Commit 23.06" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 23.06" />
+    <MESSAGE value="18.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="18.07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1391,14 +1065,14 @@
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/UsesActions.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/UsesActions.java</url>
           <line>37</line>
           <properties />
           <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Settings/MySettings.java</url>
-          <line>55</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="192" />
         </line-breakpoint>
@@ -1409,13 +1083,13 @@
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/MaxCapacityActions.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/MaxCapacityActions.java</url>
           <line>22</line>
           <properties />
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/MaxCapacityActions.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/MaxCapacityActions.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="196" />
@@ -1426,69 +1100,84 @@
           <properties />
           <option name="timeStamp" value="200" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/MaxCapacityActions.java</url>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/MaxCapacityActions.java</url>
           <line>16</line>
           <properties />
           <option name="timeStamp" value="216" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/MaxCapacityActions.java</url>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/MaxCapacityActions.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="217" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/AllowedFrontagesTypeActions.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="219" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/AllowedFrontagesTypeActions.java</url>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/AllowedFrontagesTypeActions.java</url>
           <line>30</line>
           <properties />
           <option name="timeStamp" value="220" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/BuildingTests.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="221" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BaseProjectTest.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="222" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BaseProjectTest.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="223" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/OpenProjectRequest.java</url>
           <line>10</line>
           <properties />
           <option name="timeStamp" value="224" />
         </line-breakpoint>
-        <line-breakpoint type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Actions/BaseAction.java</url>
-          <line>51</line>
-          <properties class="Actions.BaseAction" method="getZcCalibrationsWithoutVariances" />
-          <option name="timeStamp" value="203" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/ZoningAllowancesActions.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/ZoningAllowancesActions.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/ZoningAllowancesActions.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/FrontagesActions.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/FrontagesActions.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/ZoningAllowancesTests.java</url>
+          <line>14</line>
+          <properties field="zoningAllowancesActions" class="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" />
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/FrontagesActions.java</url>
+          <line>40</line>
+          <properties class="Actions.BuildingActions.ZoningAllowanceActions.FrontagesActions" method="checkFrontageType" />
+          <option name="timeStamp" value="244" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="225" />
+      <option name="time" value="249" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="errors.isEmpty()" language="JAVA" />
+        <watch expression="getZoningAllowance(project).getZoningCodeId()" language="JAVA" />
+        <watch expression="getZoningAllowance(projectExpected).getZoningCodeId()" language="JAVA" />
+        <watch expression="errors" language="JAVA" />
       </configuration>
       <configuration name="Application">
         <watch expression="response.toString()" language="JAVA" />
@@ -1504,174 +1193,104 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Settings/TestSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Settings/RequestSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="25" column="84" lean-forward="false" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
-          <folding>
-            <element signature="method#sendGetUserDataRequest#0;class#UserAction#0" expanded="false" />
-            <element signature="method#checkEmail#0;class#UserAction#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/Requests/AccountArea/UserLoginRequests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Rule/MyVirifierRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <caret line="12" column="5" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/AccountTests/Login.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/JUnit/JUnit/4.12/junit-4.12-sources.jar!/org/junit/rules/RunRules.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="139">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar!/com/mashape/unirest/request/HttpRequestWithBody.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/JUnit/JUnit/4.12/junit-4.12-sources.jar!/org/junit/rules/ErrorCollector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/DeleteProjectRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/Requests/AccountArea/GetUserDataRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/AllowedFronteges.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/Uses/Uses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="76" lean-forward="false" selection-start-line="0" selection-start-column="76" selection-end-line="0" selection-end-column="76" />
-          <folding>
-            <element signature="e#565#566#0" expanded="false" />
-            <element signature="e#582#583#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/GeneralInfo/GeneralInfoRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="653" column="29" lean-forward="false" selection-start-line="653" selection-start-column="19" selection-end-line="653" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getBuilding#0;class#BaseAction#0" expanded="false" />
-            <element signature="method#getBuildingWrapper#0;class#BaseAction#0" expanded="false" />
-            <element signature="method#getGeneralInformation#0;class#BaseAction#0" expanded="false" />
-            <element signature="method#getZcCalibrations#0;class#BaseAction#0" expanded="false" />
-            <element signature="method#getZcOriginalCalibrations#0;class#BaseAction#0" expanded="false" />
-            <element signature="method#getZcCalibrationsWithoutVariances#0;class#BaseAction#0" expanded="false" />
-            <element signature="method#getUsesFromZcOriginalCalibrations#0;class#BaseAction#0" expanded="false" />
-            <element signature="method#getUsesFromZcOriginalCalibrationsWithoutVariances#0;class#BaseAction#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="88" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="30" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Settings/SettingsFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/CalibrationData/ZcCalibrations/GeneralInfo/GeneralInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="356">
+          <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/BuildingActions.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Project/169eFlagler1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="7458" column="20" lean-forward="false" selection-start-line="7458" selection-start-column="20" selection-end-line="7458" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/Analyze.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/Views.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/ZA.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/Lot.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/AllItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Project/169eFlagler.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="7541" column="14" lean-forward="true" selection-start-line="7541" selection-start-column="14" selection-end-line="7541" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/OppositeSegment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/OriginalFrontages.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="47" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/OriginalFrontagesItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/SegmentsItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/AnalyzeData.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/OppositeSegment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/SegmentsItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/OriginalFrontagesItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/OriginalFrontages/OriginalFrontages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/UsesActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <element signature="method#checkBuildignShapeWidth#0;class#BuildingActions#0" expanded="false" />
-            <element signature="method#checkBuildignShapeDepth#0;class#BuildingActions#0" expanded="false" />
-            <element signature="method#checkVariancesList#0;class#BuildingActions#0" expanded="false" />
-            <element signature="method#checkZoneAndMunicipality#0;class#BuildingActions#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#checkUses#0;class#UsesActions#0" expanded="false" />
+            <element signature="e#757#765#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/MaxCapacityActions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/MaxCapacityActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="method#checkLotAreaPR#0;class#MaxCapacityActions#0" expanded="false" />
             <element signature="method#checkLotAreaInAcres#0;class#MaxCapacityActions#0" expanded="false" />
@@ -1693,102 +1312,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/UsesActions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingsWrappers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" column="65" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="884">
+          <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/ZoningAllowancesActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#734#742#0" expanded="true" />
+            <element signature="method#checkZoningParameters#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkZoningCodeId#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkZoneId#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkZoneTypeId#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkSubZoneId#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#getOverridesIdsList#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkOverlayList#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkBuildingTypologyId#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkIsIrregular#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkBuildingShapeWidth#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkBuildingShapeDepth#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkIrregularArea#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkIrregularFrontage#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkHeightLimit#0;class#ZoningAllowancesActions#0" expanded="false" />
+            <element signature="method#checkHeightLimitValue#0;class#ZoningAllowancesActions#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/AccountTests/BaseAcountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="method#dataForTest#0;class#BaseAcountTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Project/project829031">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/ProjectTests/ProjectGeneralInformationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/UsesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="method#usesFromCalibrationsTest#0;class#UsesTest#0" expanded="false" />
-            <element signature="method#usesFromOriginalCalibrationsTest#0;class#UsesTest#0" expanded="false" />
-            <element signature="method#usesFromCalibrationsWithoutVariancesTest#0;class#UsesTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/MaximumLotCapacityTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-589">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/ZoningAllowances/ZoningAllowances.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="739" column="44" lean-forward="false" selection-start-line="739" selection-start-column="44" selection-end-line="739" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Project/project858778">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Project/projectCreationBody.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Project/temp.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Project/TempProjectForCoverage.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1796,11 +1347,187 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite/BuildingSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/AllowedFrontagesTypeActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="class#FrontageTypes#0;class#AllowedFrontagesTypeActions#0" expanded="false" />
+            <element signature="method#getGeneralInformationRow#0;class#AllowedFrontagesTypeActions#0" expanded="false" />
+            <element signature="method#isFrontageTypeAvailable#0;class#AllowedFrontagesTypeActions#0" expanded="false" />
+            <element signature="method#checkFrontageTypes#0;class#AllowedFrontagesTypeActions#0" expanded="false" />
+            <element signature="method#checkFrontageType#0;class#AllowedFrontagesTypeActions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/ZoningAllowanceActions/FrontagesActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#getFrontageMapByLable#0;class#FrontagesActions#0" expanded="false" />
+            <element signature="method#getOriginalFrontages#0;class#FrontagesActions#0" expanded="false" />
+            <element signature="method#checkFrontageNumber#0;class#FrontagesActions#0" expanded="false" />
+            <element signature="method#checkFrontageType#0;class#FrontagesActions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/FrontagesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/AnalyzeData/AnalyzeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#598#599#0" expanded="false" />
+            <element signature="e#629#630#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Project/temp.json" />
+    <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="56" column="93" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="56" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/base.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/AccountTests/BaseAcountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/AccountTests/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BaseProjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/BuildingTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/ZoningAllowancesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/UsesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/MaximumLotCapacityTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowenceTests/AllowedFrontageTypesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Settings/TestSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Settings/SettingsFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Settings/RequestSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -1808,255 +1535,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite/LoginSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Settings/MySettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="method#toString#0;class#MySettings#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite/BuildingSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="459">
+          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/ZoningAllowancesTests.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/BuildingTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BaseProjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="62" column="59" lean-forward="false" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
-          <folding>
-            <element signature="method#after#0;class#BaseProjectTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/Services/Log4j.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Project/Development/BuildingWrapper/BuildingObject/GeneralInformation/Addresses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/BuildingActions/AllowedFrontagesTypeActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getGeneralInformationRow#0;class#AllowedFrontagesTypeActions#0" expanded="false" />
-            <element signature="method#checkFrontegeType#0;class#AllowedFrontagesTypeActions#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/CalculationTests/BuildingTests/ZoningAllowence/AllowedFrontageTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/ProjectCreationAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="53" column="68" lean-forward="false" selection-start-line="53" selection-start-column="68" selection-end-line="53" selection-end-column="68" />
-          <folding>
-            <element signature="method#createProjectObjectFromJson#0;class#ProjectCreationAction#0" expanded="false" />
-            <element signature="method#createProject#0;class#ProjectCreationAction#0" expanded="false" />
-            <element signature="method#checkProjectName#0;class#ProjectCreationAction#0" expanded="false" />
-            <element signature="method#checkProjectOwner#0;class#ProjectCreationAction#0" expanded="false" />
-            <element signature="method#checkZoneCodeName#0;class#ProjectCreationAction#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entyties/Responses/OpenProjectResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="method#toString#0;class#OpenProjectResponse#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/base.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Project/169eFlagler.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="66" column="39" lean-forward="true" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!block;n#Project#0;n#!!block;n#Project#0;n#!!top" expanded="false" />
-            <element signature="e#460#695#0" expanded="false" />
-            <element signature="e#5189#9873#0" expanded="false" />
-            <element signature="e#6210#6350#0" expanded="false" />
-            <element signature="e#6379#6668#0" expanded="false" />
-            <element signature="e#6704#9857#0" expanded="false" />
-            <element signature="e#9910#10985#0" expanded="false" />
-            <element signature="e#11023#11474#0" expanded="false" />
-            <element signature="e#11511#11702#0" expanded="false" />
-            <element signature="e#11729#11788#0" expanded="false" />
-            <element signature="e#11824#27380#0" expanded="false" />
-            <element signature="e#11908#12273#0" expanded="false" />
-            <element signature="e#12319#12681#0" expanded="false" />
-            <element signature="e#12727#13089#0" expanded="false" />
-            <element signature="e#13125#13487#0" expanded="false" />
-            <element signature="e#13523#13885#0" expanded="false" />
-            <element signature="e#13921#14286#0" expanded="false" />
-            <element signature="e#14320#14686#0" expanded="false" />
-            <element signature="e#14721#15083#0" expanded="false" />
-            <element signature="e#15117#15487#0" expanded="false" />
-            <element signature="e#15522#15888#0" expanded="false" />
-            <element signature="e#15922#16287#0" expanded="false" />
-            <element signature="e#16332#16696#0" expanded="false" />
-            <element signature="e#16740#17104#0" expanded="false" />
-            <element signature="e#17145#17510#0" expanded="false" />
-            <element signature="e#17539#17904#0" expanded="false" />
-            <element signature="e#17958#18325#0" expanded="false" />
-            <element signature="e#18369#18735#0" expanded="false" />
-            <element signature="e#18769#19134#0" expanded="false" />
-            <element signature="e#19185#19553#0" expanded="false" />
-            <element signature="e#19603#19970#0" expanded="false" />
-            <element signature="e#20023#20390#0" expanded="false" />
-            <element signature="e#20442#20809#0" expanded="false" />
-            <element signature="e#20858#21225#0" expanded="false" />
-            <element signature="e#21273#21640#0" expanded="false" />
-            <element signature="e#21677#22044#0" expanded="false" />
-            <element signature="e#22086#22453#0" expanded="false" />
-            <element signature="e#22486#22854#0" expanded="false" />
-            <element signature="e#22883#23251#0" expanded="false" />
-            <element signature="e#23284#23652#0" expanded="false" />
-            <element signature="e#23683#24050#0" expanded="false" />
-            <element signature="e#24080#24447#0" expanded="false" />
-            <element signature="e#24481#24680#0" expanded="false" />
-            <element signature="e#24736#25162#0" expanded="false" />
-            <element signature="e#64370#64627#0" expanded="false" />
-            <element signature="e#64656#64751#0" expanded="false" />
-            <element signature="e#64807#68895#0" expanded="false" />
-            <element signature="e#72958#163116#0" expanded="false" />
-            <element signature="e#163179#163736#0" expanded="false" />
-            <element signature="e#163807#164450#0" expanded="false" />
-            <element signature="e#164477#164867#0" expanded="false" />
-            <element signature="e#164528#164849#0" expanded="false" />
-            <element signature="e#164900#168224#0" expanded="false" />
-            <element signature="e#168262#168715#0" expanded="false" />
-            <element signature="e#168744#169619#0" expanded="false" />
-            <element signature="e#169658#172791#0" expanded="false" />
-            <element signature="e#171263#172753#0" expanded="false" />
-            <element signature="e#172817#191159#0" expanded="false" />
-            <element signature="e#191254#191897#0" expanded="false" />
-            <element signature="e#191313#191879#0" expanded="false" />
-            <element signature="e#191924#192327#0" expanded="false" />
-            <element signature="e#195661#196114#0" expanded="false" />
-            <element signature="e#196143#197019#0" expanded="false" />
-            <element signature="e#197058#200191#0" expanded="false" />
-            <element signature="e#200217#218559#0" expanded="false" />
-            <element signature="e#218662#219305#0" expanded="false" />
-            <element signature="e#219332#219732#0" expanded="false" />
-            <element signature="e#219765#223089#0" expanded="false" />
-            <element signature="e#223127#223580#0" expanded="false" />
-            <element signature="e#223609#224484#0" expanded="false" />
-            <element signature="e#224523#227656#0" expanded="false" />
-            <element signature="e#246083#307782#0" expanded="false" />
-            <element signature="e#307846#308341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCalculation/BuildingCalculationRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/OpenProjectRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/RequestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="51" column="72" lean-forward="true" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HTTP/Requests/Project/ProjectCreation/CreateProjectRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="223">
+          <caret line="130" column="31" lean-forward="false" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
           <folding />
         </state>
       </provider>

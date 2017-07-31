@@ -14,7 +14,7 @@ D:\Project\ZonarAPI\src\main\java\Entyties\Responses\OpenProjectResponse.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\CalibrationData\ZcSettings.java
 D:\Project\ZonarAPI\src\main\java\Services\Log4j.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingObject\GeneralInformation\Addresses.java
-D:\Project\ZonarAPI\src\main\java\Actions\BuildingActions\AllowedFrontagesTypeActions.java
+D:\Project\ZonarAPI\src\main\java\Actions\BuildingActions\ZoningAllowanceActions\MaxCapacityActions.java
 D:\Project\ZonarAPI\src\main\java\Actions\ProjectCreationAction.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingObject\GeneralInformation\GeneralInformation.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingEnvelope\BuildingEnvelope.java
@@ -22,11 +22,11 @@ D:\Project\ZonarAPI\src\main\java\Settings\RequestSettings.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Project.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingObject\ZoningAllowances\Modules.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\CalibrationData\ZcCalibrations\ZcCalibrations.java
-D:\Project\ZonarAPI\src\main\java\Actions\BuildingActions\UsesActions.java
 D:\Project\ZonarAPI\src\main\java\Entyties\User\Data.java
 D:\Project\ZonarAPI\src\main\java\HTTP\Requests\Project\ProjectCalculation\BuildingCalculationRequest.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingObject\Variances\SpecialPermit.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingObject\CapacityAnalisis\SharedParking.java
+D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\AnalyzeData\OriginalFrontages\OriginalFrontages.java
 D:\Project\ZonarAPI\src\main\java\Services\MyString.java
 D:\Project\ZonarAPI\src\main\java\Settings\TestSettings.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\CalibrationData\ZcCalibrations\GeneralInfo\GeneralInfo.java
@@ -37,6 +37,8 @@ D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\C
 D:\Project\ZonarAPI\src\main\java\HTTP\Requests\Project\ProjectCreation\OpenProjectRequest.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingObject\Variances\Variance.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Entity.java
+D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\AnalyzeData\AnalyzeData.java
+D:\Project\ZonarAPI\src\main\java\Actions\BuildingActions\ZoningAllowanceActions\FrontagesActions.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\CalibrationData\ZcCalibrations\Uses\Uses.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Responses\CreateProjectResponse.java
 D:\Project\ZonarAPI\src\main\java\Entyties\User\User.java
@@ -46,9 +48,11 @@ D:\Project\ZonarAPI\src\main\java\HTTP\Requests\AccountArea\GetUserDataRequest.j
 D:\Project\ZonarAPI\src\main\java\Settings\SettingsFactory.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingEnvelope\EntityDBSettings.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingObject\Building\Building.java
-D:\Project\ZonarAPI\src\main\java\Actions\BuildingActions\MaxCapacityActions.java
+D:\Project\ZonarAPI\src\main\java\Services\MyAssertation.java
+D:\Project\ZonarAPI\src\main\java\Actions\BuildingActions\ZoningAllowanceActions\AllowedFrontagesTypeActions.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingObject\BuildingObject.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingObject\Variances\Waiver.java
+D:\Project\ZonarAPI\src\main\java\Actions\BuildingActions\ZoningAllowanceActions\UsesActions.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\CalibrationData\ZcCalibrations\Uses\UsesRow.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\CalibrationData\ZcCalibrations\Parking\Parking.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\ProjectInfo.java
@@ -61,6 +65,7 @@ D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\C
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\BuildingsWrappers.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\Development.java
 D:\Project\ZonarAPI\src\main\java\HTTP\RequestBase.java
+D:\Project\ZonarAPI\src\main\java\Actions\BuildingActions\ZoningAllowanceActions\ZoningAllowancesActions.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\CalibrationData\ZcCalibrations\SetbackConditions\SetbackConditions.java
 D:\Project\ZonarAPI\src\main\java\HTTP\Requests\Project\ProjectCreation\DeleteProjectRequest.java
 D:\Project\ZonarAPI\src\main\java\Entyties\Project\Development\BuildingWrapper\CalibrationData\ZcCalibrations\OfficeCommercial\OfficeCommercial.java

@@ -30,9 +30,6 @@ public class MySettings{
 			return settings;
 		}
 		else return settings;
-//		MySettings settings = (MySettings) JsonConverter.getObjectFromFile(new File("D:\\Project\\ZonarAPI\\src\\test\\resources\\base.json"), this);
-//		setIsInit(true);
-//		return settings;
 	}
 
 	public void setTestSettings(TestSettings testSettings){

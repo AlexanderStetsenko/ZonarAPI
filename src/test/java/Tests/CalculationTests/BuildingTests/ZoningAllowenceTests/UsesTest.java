@@ -1,6 +1,5 @@
-package Tests.CalculationTests.BuildingTests.ZoningAllowence;
+package Tests.CalculationTests.BuildingTests.ZoningAllowenceTests;
 
-import Entyties.Responses.OpenProjectResponse;
 import Tests.CalculationTests.BaseProjectTest;
 import org.junit.Test;
 import ru.yandex.qatools.allure.annotations.Features;

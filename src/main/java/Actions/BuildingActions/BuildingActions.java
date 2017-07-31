@@ -19,19 +19,7 @@ public class BuildingActions extends BaseAction {
 
 
 
-    @Step("Check BuildingObject Width")
-    public void checkBuildignShapeWidth(OpenProjectResponse project, OpenProjectResponse projectExpected) {
-        String actual = String.valueOf(
-                getBuilding(project)
-                .getZoningAllowances()
-                .getWidth());
 
-        String expected = String.valueOf(
-                getBuilding(projectExpected)
-                .getZoningAllowances()
-                .getWidth());
-        assertThat(actual, is(expected));
-    }
 
     @Step("Check BuildingObject Depth")
     public void checkBuildignShapeDepth(OpenProjectResponse project, OpenProjectResponse projectExpected) {
@@ -46,21 +34,7 @@ public class BuildingActions extends BaseAction {
         assertThat(actual, is(expected));
     }
 
-    @Step("Check Applyed Variances Id List")
-    public void checkVariancesList(OpenProjectResponse project, OpenProjectResponse projectExpected) {
 
-        ArrayList<String> variances = (ArrayList<String>)
-                MyString.divideStringToArrayByChar(getBuilding(project)
-                        .getZoningAllowances()
-                        .getVariancesIds(), ',');
-
-        ArrayList<String> variancesExpected = (ArrayList<String>)
-                MyString.divideStringToArrayByChar(getBuilding(projectExpected)
-                        .getZoningAllowances()
-                        .getVariancesIds(), ',');
-
-        assertThat(variances, is(variancesExpected));
-    }
 
     @Step("Check Applied Zone and Municipality for Building")
     public void checkZoneAndMunicipality(OpenProjectResponse project, OpenProjectResponse projectExpected) {

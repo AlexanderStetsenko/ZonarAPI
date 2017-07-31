@@ -1,16 +1,8 @@
 
-import Actions.BuildingActions.AllowedFrontagesTypeActions;
-import Entyties.Project.Development.BuildingWrapper.CalibrationData.ZcCalibrations.GeneralInfo.GeneralInfo;
 import Entyties.Project.Development.BuildingWrapper.CalibrationData.ZcCalibrations.GeneralInfo.GeneralInfoRow;
-import Entyties.Responses.OpenProjectResponse;
-import Services.JsonConverter;
-import Settings.MySettings;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
-import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 import static org.hamcrest.CoreMatchers.is;

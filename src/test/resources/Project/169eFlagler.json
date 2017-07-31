@@ -2,64 +2,62 @@
   "Project": {
     "_isReady": true,
     "Project": {
-      "Id": 5284,
-      "Name": "Project 1",
+      "Id": 5629,
+      "Name": "Project 4",
       "Owner": 163,
       "IsSubmitedForPR": null,
       "ParentId": null,
       "Type": 2,
-      "CreatedOn": "2017-07-07T10:49:52.000Z",
-      "ModifiedOn": "2017-07-07T10:49:52.000Z"
+      "CreatedOn": "2017-07-19T10:12:10.000Z",
+      "ModifiedOn": "2017-07-19T10:12:10.000Z",
+      "StatusId": 1
     },
     "collectionName": "DevelopmentsWrappers",
-    "type": 1,
-    "userId": 15,
     "DevelopmentsWrappers": [
       {
         "_isReady": true,
         "Development": {
-          "Id": 11562,
+          "Id": 11916,
           "Name": "New Development 1",
           "Description": null,
-          "ProjectId": 5284,
-          "CreatedOn": "2017-07-07T10:49:52.000Z",
-          "ModifiedOn": "2017-07-07T10:49:52.000Z"
+          "ProjectId": 5629,
+          "CreatedOn": "2017-07-19T10:12:10.000Z",
+          "ModifiedOn": "2017-07-19T10:12:10.000Z"
         },
         "collectionName": "BuildingsWrappers",
-        "type": 2,
         "BuildingsWrappers": [
           {
             "_isReady": true,
             "BuildingObject": {
               "Building": {
-                "Id": 24242,
+                "Id": 24604,
                 "Name": "New Building 1",
                 "Description": null,
                 "CreatedBy": null,
                 "AppliedOverrideId": null,
-                "CreatedOn": "2017-07-07T10:49:52.000Z",
+                "CreatedOn": "2017-07-19T10:12:10.000Z",
                 "ModifiedBy": null,
-                "ModifiedOn": "2017-07-07T10:49:52.000Z",
-                "CapacityAnalysisId": 24250,
-                "ZoningAllowancesId": 24250,
+                "ModifiedOn": "2017-07-19T10:12:10.000Z",
+                "CapacityAnalysisId": 24612,
+                "ZoningAllowancesId": 24612,
                 "PeerViewZA": null,
                 "PeerViewCA": null,
                 "Frontages": null,
                 "Address": "169 E Flagler St",
                 "OriginAddresses": null,
-                "DevelopmentId": 11562,
+                "DevelopmentId": 11916,
                 "ZoneId": 2053496,
                 "ScoutLotArea": 50750,
                 "ComparableTables": null,
                 "ZonarData": []
               },
               "ZoningAllowances": {
-                "Id": 24250,
-                "ZoningCodeId": 1,
-                "ZoneId": 5,
-                "ZoneTypeId": 3,
-                "VariancesIds": "[889,888,890,891,892,894,895,897,899,900,901,902,898]",
-                "SubZoneId": 10,
+                "Id": 24612,
+                "ZoningCodeId": 205,
+                "ZoneId": 2088,
+                "ZoneTypeId": 268,
+                "VariancesIds": "[889,888,890,891,892,894,895,897,899,900,901,902,898,903]",
+                "SubZoneId": 1936,
                 "Irregular": false,
                 "Width": 250,
                 "Depth": 250,
@@ -112,7 +110,7 @@
                 "incentivesPPBenefitProgramOffSiteValue": 2400000,
                 "incentivesWillDonateCivic": false,
                 "incentivesWillDonateCivicValue": 2400000,
-                "OverlayIds": "[4,1017,1019]",
+                "OverlayIds": "[5062,5098]",
                 "abuttingAbuts": false,
                 "abuttingZone1Id": 0,
                 "abuttingZone2Id": 0,
@@ -136,7 +134,7 @@
                 }
               },
               "CapacityAnalysis": {
-                "Id": 24250,
+                "Id": 24612,
                 "Residential": 0,
                 "DwellingUnitsAverageArea": 1200,
                 "Lodging": 0,
@@ -176,96 +174,96 @@
                 },
                 "sharedParkings": [
                   {
-                    "Id": 1,
-                    "ZoningCodeId": 1,
+                    "Id": 1171,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 1,
                     "Use2Id": 2,
                     "SharedRatio": 1.1
                   },
                   {
-                    "Id": 2,
-                    "ZoningCodeId": 1,
+                    "Id": 1172,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 1,
                     "Use2Id": 3,
                     "SharedRatio": 1.4
                   },
                   {
-                    "Id": 3,
-                    "ZoningCodeId": 1,
+                    "Id": 1173,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 1,
                     "Use2Id": 4,
                     "SharedRatio": 1.2
                   },
                   {
-                    "Id": 4,
-                    "ZoningCodeId": 1,
+                    "Id": 1174,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 2,
                     "Use2Id": 1,
                     "SharedRatio": 1.1
                   },
                   {
-                    "Id": 5,
-                    "ZoningCodeId": 1,
+                    "Id": 1175,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 2,
                     "Use2Id": 3,
                     "SharedRatio": 1.7
                   },
                   {
-                    "Id": 6,
-                    "ZoningCodeId": 1,
+                    "Id": 1176,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 2,
                     "Use2Id": 4,
                     "SharedRatio": 1.3
                   },
                   {
-                    "Id": 7,
-                    "ZoningCodeId": 1,
+                    "Id": 1177,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 3,
                     "Use2Id": 1,
                     "SharedRatio": 1.4
                   },
                   {
-                    "Id": 8,
-                    "ZoningCodeId": 1,
+                    "Id": 1178,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 3,
                     "Use2Id": 2,
                     "SharedRatio": 1.7
                   },
                   {
-                    "Id": 9,
-                    "ZoningCodeId": 1,
+                    "Id": 1179,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 3,
                     "Use2Id": 4,
                     "SharedRatio": 1.2
                   },
                   {
-                    "Id": 10,
-                    "ZoningCodeId": 1,
+                    "Id": 1180,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 4,
                     "Use2Id": 1,
                     "SharedRatio": 1.2
                   },
                   {
-                    "Id": 11,
-                    "ZoningCodeId": 1,
+                    "Id": 1181,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 4,
                     "Use2Id": 2,
                     "SharedRatio": 1.3
                   },
                   {
-                    "Id": 12,
-                    "ZoningCodeId": 1,
+                    "Id": 1182,
+                    "ZoningCodeId": 205,
                     "ZoneCombinationId": null,
                     "Use1Id": 4,
                     "Use2Id": 3,
@@ -274,11 +272,11 @@
                 ]
               },
               "BuildingParameter": {
-                "Id": 24270,
+                "Id": 24632,
                 "Name": "System",
                 "IsDefault": false,
-                "CreatedOn": "2017-07-07T10:49:52.000Z",
-                "ModifiedOn": "2017-07-07T10:49:52.000Z",
+                "CreatedOn": "2017-07-19T10:12:10.000Z",
+                "ModifiedOn": "2017-07-19T10:12:10.000Z",
                 "TowersParallel": true,
                 "ParallelPkgLen": 22,
                 "HeadInPkgLen": 10,
@@ -297,15 +295,15 @@
                 "BaseLevelHeight": 10,
                 "TowerLevelHeight": 10,
                 "ParkingLevelHeight": 10,
-                "UserId": 15,
-                "BuildingId": 24242,
+                "UserId": 163,
+                "BuildingId": 24604,
                 "ScoutLotArea": true,
                 "ParkingSlope": 10
               },
               "GeneralInformation": {
                 "Addresses": [
                   {
-                    "BuildingId": 24242,
+                    "BuildingId": 24604,
                     "Address": "169 E Flagler St",
                     "City": "Miami",
                     "State": "FL",
@@ -321,9 +319,7 @@
                 2054035,
                 2859057,
                 2868712,
-                2871924,
-                2873133,
-                3283963
+                2871924
               ],
               "modules": {
                 "buildingAnalysis": false
@@ -331,7 +327,7 @@
               "AppliedOverrides": {
                 "CalibrationGeneral": {
                   "PrincipalBuildingMax": {
-                    "Id": 94141,
+                    "Id": 107332,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -339,10 +335,10 @@
                     "requiredValuesOverrides": [],
                     "value": 10,
                     "status": false,
-                    "override": 1811
+                    "override": 1990
                   },
                   "PFrontSetbackPrincipal": {
-                    "Id": 94142,
+                    "Id": 107333,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -350,10 +346,10 @@
                     "requiredValuesOverrides": [],
                     "value": 0,
                     "status": false,
-                    "override": 41
+                    "override": 1963
                   },
                   "PFrontSetbackSecondary": {
-                    "Id": 94143,
+                    "Id": 107334,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -361,10 +357,10 @@
                     "requiredValuesOverrides": [],
                     "value": 0,
                     "status": false,
-                    "override": 40
+                    "override": 1965
                   },
                   "PSideSetback": {
-                    "Id": 94144,
+                    "Id": 107335,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -372,10 +368,10 @@
                     "requiredValuesOverrides": [],
                     "value": 0,
                     "status": false,
-                    "override": 43
+                    "override": 1966
                   },
                   "PRearSetback": {
-                    "Id": 94145,
+                    "Id": 107336,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -383,10 +379,10 @@
                     "requiredValuesOverrides": [],
                     "value": 0,
                     "status": false,
-                    "override": 44
+                    "override": 1967
                   },
                   "TSideSetback": {
-                    "Id": 94146,
+                    "Id": 107337,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -394,10 +390,10 @@
                     "requiredValuesOverrides": [],
                     "value": 25,
                     "status": false,
-                    "override": 1912
+                    "override": 2025
                   },
                   "LotAreaMin": {
-                    "Id": 94147,
+                    "Id": 107338,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -405,10 +401,10 @@
                     "requiredValuesOverrides": [],
                     "value": 100,
                     "status": false,
-                    "override": 1916
+                    "override": 2029
                   },
                   "LotWidthMin": {
-                    "Id": 94148,
+                    "Id": 107339,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -416,10 +412,10 @@
                     "requiredValuesOverrides": [],
                     "value": 0,
                     "status": false,
-                    "override": 54
+                    "override": 1973
                   },
                   "LotAreaMax": {
-                    "Id": 94149,
+                    "Id": 107340,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -427,10 +423,10 @@
                     "requiredValuesOverrides": [],
                     "value": 1000000,
                     "status": false,
-                    "override": 1914
+                    "override": 2027
                   },
                   "LotWidthMax": {
-                    "Id": 94150,
+                    "Id": 107341,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -438,10 +434,10 @@
                     "requiredValuesOverrides": [],
                     "value": 150,
                     "status": false,
-                    "override": 1917
+                    "override": 2030
                   },
                   "GreenSpace": {
-                    "Id": 94151,
+                    "Id": 107342,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -449,10 +445,10 @@
                     "requiredValuesOverrides": [],
                     "value": 33,
                     "status": false,
-                    "override": 1902
+                    "override": 2023
                   },
                   "LotCoverageFirstFloor": {
-                    "Id": 94152,
+                    "Id": 107343,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -460,10 +456,10 @@
                     "requiredValuesOverrides": [],
                     "value": 0,
                     "status": false,
-                    "override": 1956
+                    "override": 2017
                   },
                   "PrincipalBuildingMin": {
-                    "Id": 94153,
+                    "Id": 107344,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -471,10 +467,10 @@
                     "requiredValuesOverrides": [],
                     "value": 1,
                     "status": false,
-                    "override": 1913
+                    "override": 2026
                   },
                   "PkgFacadeWidthMax": {
-                    "Id": 94154,
+                    "Id": 107345,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -482,10 +478,10 @@
                     "requiredValuesOverrides": [],
                     "value": 16,
                     "status": false,
-                    "override": 1817
+                    "override": 1996
                   },
                   "Tower": {
-                    "Id": 94155,
+                    "Id": 107346,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -493,10 +489,10 @@
                     "requiredValuesOverrides": [],
                     "value": 17,
                     "status": false,
-                    "override": 1818
+                    "override": 1997
                   },
                   "TowerFloorplateAreaResidential": {
-                    "Id": 94156,
+                    "Id": 107347,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -504,10 +500,10 @@
                     "requiredValuesOverrides": [],
                     "value": 1300,
                     "status": false,
-                    "override": 1959
+                    "override": 2018
                   },
                   "PrincipalBuildingHgt": {
-                    "Id": 94157,
+                    "Id": 107348,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -515,10 +511,10 @@
                     "requiredValuesOverrides": [],
                     "value": 100,
                     "status": false,
-                    "override": 1960
+                    "override": 2019
                   },
                   "DensityNet": {
-                    "Id": 94158,
+                    "Id": 107349,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -526,10 +522,10 @@
                     "requiredValuesOverrides": [],
                     "value": 13,
                     "status": false,
-                    "override": 1915
+                    "override": 2028
                   },
                   "ActivePrimaryFrontageGround": {
-                    "Id": 94159,
+                    "Id": 107350,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -537,10 +533,10 @@
                     "requiredValuesOverrides": [],
                     "value": false,
                     "status": false,
-                    "override": 1823
+                    "override": 2002
                   },
                   "ActivePrimaryFrontageAbove": {
-                    "Id": 94160,
+                    "Id": 107351,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -548,10 +544,10 @@
                     "requiredValuesOverrides": [],
                     "value": true,
                     "status": false,
-                    "override": 1824
+                    "override": 2003
                   },
                   "ActiveSecondaryFrontageGround": {
-                    "Id": 94161,
+                    "Id": 107352,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -559,10 +555,10 @@
                     "requiredValuesOverrides": [],
                     "value": false,
                     "status": false,
-                    "override": 657
+                    "override": 1986
                   },
                   "ActiveSecondaryFrontageAbove": {
-                    "Id": 94162,
+                    "Id": 107353,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -570,10 +566,10 @@
                     "requiredValuesOverrides": [],
                     "value": false,
                     "status": false,
-                    "override": 658
+                    "override": 1987
                   },
                   "ActiveWaterFrontageGround": {
-                    "Id": 94163,
+                    "Id": 107354,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -581,10 +577,10 @@
                     "requiredValuesOverrides": [],
                     "value": false,
                     "status": false,
-                    "override": 659
+                    "override": 1988
                   },
                   "ActiveWaterFrontageAbove": {
-                    "Id": 94164,
+                    "Id": 107355,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -592,10 +588,10 @@
                     "requiredValuesOverrides": [],
                     "value": true,
                     "status": false,
-                    "override": 1828
+                    "override": 2007
                   },
                   "PorchAndFence": {
-                    "Id": 94165,
+                    "Id": 107356,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -603,10 +599,10 @@
                     "requiredValuesOverrides": [],
                     "value": true,
                     "status": false,
-                    "override": 1948
+                    "override": 2032
                   },
                   "TerraceOrLightwell": {
-                    "Id": 94166,
+                    "Id": 107357,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -614,10 +610,10 @@
                     "requiredValuesOverrides": [],
                     "value": true,
                     "status": false,
-                    "override": 1949
+                    "override": 2033
                   },
                   "Forecourt": {
-                    "Id": 94167,
+                    "Id": 107358,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -625,10 +621,10 @@
                     "requiredValuesOverrides": [],
                     "value": false,
                     "status": false,
-                    "override": 1950
+                    "override": 2034
                   },
                   "Stoop": {
-                    "Id": 94168,
+                    "Id": 107359,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -636,10 +632,10 @@
                     "requiredValuesOverrides": [],
                     "value": false,
                     "status": false,
-                    "override": 1951
+                    "override": 2035
                   },
                   "Shopfront": {
-                    "Id": 94169,
+                    "Id": 107360,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -647,10 +643,10 @@
                     "requiredValuesOverrides": [],
                     "value": false,
                     "status": false,
-                    "override": 1952
+                    "override": 2036
                   },
                   "Gallery": {
-                    "Id": 94170,
+                    "Id": 107361,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -658,10 +654,10 @@
                     "requiredValuesOverrides": [],
                     "value": true,
                     "status": false,
-                    "override": 1953
+                    "override": 2037
                   },
                   "Arcade": {
-                    "Id": 94171,
+                    "Id": 107362,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -669,19 +665,19 @@
                     "requiredValuesOverrides": [],
                     "value": true,
                     "status": false,
-                    "override": 1954
+                    "override": 2038
                   },
                   "CommonLawn": {
-                    "override": 1911,
+                    "override": 2024,
                     "status": false,
                     "value": 0,
                     "PRStatus": false,
-                    "Id": 94178
+                    "Id": 107406
                   }
                 },
                 "CalibrationBonus": {
                   "ParkingReductionBonus": {
-                    "Id": 94176,
+                    "Id": 107367,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -689,12 +685,12 @@
                     "requiredValuesOverrides": [],
                     "value": 1,
                     "status": false,
-                    "override": 626
+                    "override": 1983
                   }
                 },
                 "CalibrationOfficeCommercial": {
                   "OfficeCommercialMaxStories": {
-                    "Id": 94177,
+                    "Id": 107368,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -702,12 +698,12 @@
                     "requiredValuesOverrides": [],
                     "value": 60,
                     "status": false,
-                    "override": 1962
+                    "override": 2020
                   }
                 },
                 "CalibrationParking": {
                   "ResidentialTODBenefitReduction": {
-                    "Id": 94172,
+                    "Id": 107363,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -715,10 +711,10 @@
                     "requiredValuesOverrides": [],
                     "value": 30,
                     "status": false,
-                    "override": 146
+                    "override": 1978
                   },
                   "LodgingTODBenefitReduction": {
-                    "Id": 94173,
+                    "Id": 107364,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -726,10 +722,10 @@
                     "requiredValuesOverrides": [],
                     "value": 30,
                     "status": false,
-                    "override": 147
+                    "override": 1979
                   },
                   "OfficeTODBenefitReduction": {
-                    "Id": 94174,
+                    "Id": 107365,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -737,10 +733,10 @@
                     "requiredValuesOverrides": [],
                     "value": 30,
                     "status": false,
-                    "override": 148
+                    "override": 1980
                   },
                   "CommercialTODBenefitReduction": {
-                    "Id": 94175,
+                    "Id": 107366,
                     "IsDeclined": null,
                     "Comment": null,
                     "PRStatus": false,
@@ -748,7 +744,7 @@
                     "requiredValuesOverrides": [],
                     "value": 30,
                     "status": false,
-                    "override": 149
+                    "override": 1981
                   }
                 }
               },
@@ -757,7 +753,7 @@
                   "Id": 2,
                   "Overrides": [
                     {
-                      "VarianceId": 31,
+                      "VarianceId": 888,
                       "VarianceName": "Override Setbacks due to Dominant Setback",
                       "Priority": 1,
                       "VarianceTypeId": 2,
@@ -773,14 +769,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 41,
+                      "OverrideId": 1963,
                       "Hide": false,
                       "FieldSection": "(Principal)",
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 33,
+                      "VarianceId": 890,
                       "VarianceName": "Secondary Frontage Setback Adjustment by max. 10%",
                       "Priority": 2,
                       "VarianceTypeId": 2,
@@ -796,14 +792,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 40,
+                      "OverrideId": 1965,
                       "Hide": false,
                       "FieldSection": "(Principal)",
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 34,
+                      "VarianceId": 891,
                       "VarianceName": "Side Setback Adjustment by max. 10%",
                       "Priority": 2,
                       "VarianceTypeId": 2,
@@ -819,14 +815,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 43,
+                      "OverrideId": 1966,
                       "Hide": false,
                       "FieldSection": "(Principal)",
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 35,
+                      "VarianceId": 892,
                       "VarianceName": "Rear Setback Adjustment by max. 10%",
                       "Priority": 2,
                       "VarianceTypeId": 2,
@@ -842,14 +838,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 44,
+                      "OverrideId": 1967,
                       "Hide": false,
                       "FieldSection": "(Principal)",
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 100,
+                      "VarianceId": 895,
                       "VarianceName": "Parking Reduction by TOD / Transit Corridor",
                       "Priority": 8,
                       "VarianceTypeId": 2,
@@ -865,14 +861,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "30",
-                      "OverrideId": 146,
+                      "OverrideId": 1978,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 2
                     },
                     {
-                      "VarianceId": 100,
+                      "VarianceId": 895,
                       "VarianceName": "Parking Reduction by TOD / Transit Corridor",
                       "Priority": 8,
                       "VarianceTypeId": 2,
@@ -888,14 +884,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "30",
-                      "OverrideId": 147,
+                      "OverrideId": 1979,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 2
                     },
                     {
-                      "VarianceId": 100,
+                      "VarianceId": 895,
                       "VarianceName": "Parking Reduction by TOD / Transit Corridor",
                       "Priority": 8,
                       "VarianceTypeId": 2,
@@ -911,14 +907,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "30",
-                      "OverrideId": 148,
+                      "OverrideId": 1980,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 2
                     },
                     {
-                      "VarianceId": 100,
+                      "VarianceId": 895,
                       "VarianceName": "Parking Reduction by TOD / Transit Corridor",
                       "Priority": 8,
                       "VarianceTypeId": 2,
@@ -934,14 +930,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "30",
-                      "OverrideId": 149,
+                      "OverrideId": 1981,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 2
                     },
                     {
-                      "VarianceId": 327,
+                      "VarianceId": 897,
                       "VarianceName": "10% Parking Reduction",
                       "Priority": 7,
                       "VarianceTypeId": 2,
@@ -957,14 +953,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 626,
+                      "OverrideId": 1983,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 345,
+                      "VarianceId": 898,
                       "VarianceName": "Disable Active Frontage",
                       "Priority": 1,
                       "VarianceTypeId": 2,
@@ -980,14 +976,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 657,
+                      "OverrideId": 1986,
                       "Hide": false,
                       "FieldSection": "",
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 345,
+                      "VarianceId": 898,
                       "VarianceName": "Disable Active Frontage",
                       "Priority": 1,
                       "VarianceTypeId": 2,
@@ -1003,14 +999,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 658,
+                      "OverrideId": 1987,
                       "Hide": false,
                       "FieldSection": "",
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 345,
+                      "VarianceId": 898,
                       "VarianceName": "Disable Active Frontage",
                       "Priority": 1,
                       "VarianceTypeId": 2,
@@ -1026,7 +1022,7 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 659,
+                      "OverrideId": 1988,
                       "Hide": false,
                       "FieldSection": "",
                       "IsActive": null,
@@ -1038,7 +1034,7 @@
                   "Id": 1,
                   "Overrides": [
                     {
-                      "VarianceId": 40,
+                      "VarianceId": 894,
                       "VarianceName": "Pre-Existing NonConformity",
                       "Priority": 4,
                       "VarianceTypeId": 1,
@@ -1054,14 +1050,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "0",
-                      "OverrideId": 54,
+                      "OverrideId": 1973,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 848,
+                      "VarianceId": 900,
                       "VarianceName": "Variance",
                       "Priority": 11,
                       "VarianceTypeId": 1,
@@ -1077,14 +1073,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 1956,
+                      "OverrideId": 2017,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 848,
+                      "VarianceId": 900,
                       "VarianceName": "Variance",
                       "Priority": 11,
                       "VarianceTypeId": 1,
@@ -1100,14 +1096,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "1300",
-                      "OverrideId": 1959,
+                      "OverrideId": 2018,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 848,
+                      "VarianceId": 900,
                       "VarianceName": "Variance",
                       "Priority": 11,
                       "VarianceTypeId": 1,
@@ -1123,14 +1119,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "100",
-                      "OverrideId": 1960,
+                      "OverrideId": 2019,
                       "Hide": false,
                       "FieldSection": "",
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 848,
+                      "VarianceId": 900,
                       "VarianceName": "Variance",
                       "Priority": 11,
                       "VarianceTypeId": 1,
@@ -1146,14 +1142,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "60",
-                      "OverrideId": 1962,
+                      "OverrideId": 2020,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 887,
+                      "VarianceId": 903,
                       "VarianceName": "test 2391",
                       "Priority": 12,
                       "VarianceTypeId": 1,
@@ -1169,14 +1165,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "1",
-                      "OverrideId": 1948,
+                      "OverrideId": 2032,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 887,
+                      "VarianceId": 903,
                       "VarianceName": "test 2391",
                       "Priority": 12,
                       "VarianceTypeId": 1,
@@ -1192,14 +1188,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "1",
-                      "OverrideId": 1949,
+                      "OverrideId": 2033,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 887,
+                      "VarianceId": 903,
                       "VarianceName": "test 2391",
                       "Priority": 12,
                       "VarianceTypeId": 1,
@@ -1215,14 +1211,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 1950,
+                      "OverrideId": 2034,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 887,
+                      "VarianceId": 903,
                       "VarianceName": "test 2391",
                       "Priority": 12,
                       "VarianceTypeId": 1,
@@ -1238,14 +1234,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 1951,
+                      "OverrideId": 2035,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 887,
+                      "VarianceId": 903,
                       "VarianceName": "test 2391",
                       "Priority": 12,
                       "VarianceTypeId": 1,
@@ -1261,14 +1257,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 1952,
+                      "OverrideId": 2036,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 887,
+                      "VarianceId": 903,
                       "VarianceName": "test 2391",
                       "Priority": 12,
                       "VarianceTypeId": 1,
@@ -1284,14 +1280,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "1",
-                      "OverrideId": 1953,
+                      "OverrideId": 2037,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 887,
+                      "VarianceId": 903,
                       "VarianceName": "test 2391",
                       "Priority": 12,
                       "VarianceTypeId": 1,
@@ -1307,7 +1303,7 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "1",
-                      "OverrideId": 1954,
+                      "OverrideId": 2038,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
@@ -1319,7 +1315,7 @@
                   "Id": 3,
                   "Overrides": [
                     {
-                      "VarianceId": 714,
+                      "VarianceId": 899,
                       "VarianceName": "test",
                       "Priority": 14,
                       "VarianceTypeId": 3,
@@ -1335,14 +1331,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "10",
-                      "OverrideId": 1811,
+                      "OverrideId": 1990,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 714,
+                      "VarianceId": 899,
                       "VarianceName": "test",
                       "Priority": 14,
                       "VarianceTypeId": 3,
@@ -1358,14 +1354,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 1817,
+                      "OverrideId": 1996,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 714,
+                      "VarianceId": 899,
                       "VarianceName": "test",
                       "Priority": 14,
                       "VarianceTypeId": 3,
@@ -1381,14 +1377,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 1818,
+                      "OverrideId": 1997,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": true,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 850,
+                      "VarianceId": 902,
                       "VarianceName": "SP",
                       "Priority": 15,
                       "VarianceTypeId": 3,
@@ -1404,14 +1400,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "33",
-                      "OverrideId": 1902,
+                      "OverrideId": 2023,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 850,
+                      "VarianceId": 902,
                       "VarianceName": "SP",
                       "Priority": 15,
                       "VarianceTypeId": 3,
@@ -1427,14 +1423,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "25",
-                      "OverrideId": 1912,
+                      "OverrideId": 2025,
                       "Hide": false,
                       "FieldSection": "(Tower)",
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 850,
+                      "VarianceId": 902,
                       "VarianceName": "SP",
                       "Priority": 15,
                       "VarianceTypeId": 3,
@@ -1450,14 +1446,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "1",
-                      "OverrideId": 1913,
+                      "OverrideId": 2026,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 850,
+                      "VarianceId": 902,
                       "VarianceName": "SP",
                       "Priority": 15,
                       "VarianceTypeId": 3,
@@ -1473,14 +1469,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "1000000",
-                      "OverrideId": 1914,
+                      "OverrideId": 2027,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 850,
+                      "VarianceId": 902,
                       "VarianceName": "SP",
                       "Priority": 15,
                       "VarianceTypeId": 3,
@@ -1496,14 +1492,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "13",
-                      "OverrideId": 1915,
+                      "OverrideId": 2028,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 850,
+                      "VarianceId": 902,
                       "VarianceName": "SP",
                       "Priority": 15,
                       "VarianceTypeId": 3,
@@ -1519,14 +1515,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "100",
-                      "OverrideId": 1916,
+                      "OverrideId": 2029,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 850,
+                      "VarianceId": 902,
                       "VarianceName": "SP",
                       "Priority": 15,
                       "VarianceTypeId": 3,
@@ -1542,14 +1538,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "150",
-                      "OverrideId": 1917,
+                      "OverrideId": 2030,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 714,
+                      "VarianceId": 899,
                       "VarianceName": "test",
                       "Priority": 14,
                       "VarianceTypeId": 3,
@@ -1565,14 +1561,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": null,
-                      "OverrideId": 1823,
+                      "OverrideId": 2002,
                       "Hide": false,
                       "FieldSection": "",
                       "IsActive": null,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 714,
+                      "VarianceId": 899,
                       "VarianceName": "test",
                       "Priority": 14,
                       "VarianceTypeId": 3,
@@ -1588,14 +1584,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "1",
-                      "OverrideId": 1824,
+                      "OverrideId": 2003,
                       "Hide": false,
                       "FieldSection": "",
                       "IsActive": true,
                       "ApplyTypeId": 0
                     },
                     {
-                      "VarianceId": 714,
+                      "VarianceId": 899,
                       "VarianceName": "test",
                       "Priority": 14,
                       "VarianceTypeId": 3,
@@ -1611,14 +1607,14 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "1",
-                      "OverrideId": 1828,
+                      "OverrideId": 2007,
                       "Hide": false,
                       "FieldSection": "",
                       "IsActive": true,
                       "ApplyTypeId": 2
                     },
                     {
-                      "VarianceId": 850,
+                      "VarianceId": 902,
                       "VarianceName": "SP",
                       "Priority": 15,
                       "VarianceTypeId": 3,
@@ -1634,7 +1630,7 @@
                       "SubZoneId": null,
                       "ZoneTypeId": null,
                       "FixedValue": "1",
-                      "OverrideId": 1911,
+                      "OverrideId": 2024,
                       "Hide": false,
                       "FieldSection": null,
                       "IsActive": null,
@@ -1720,7 +1716,7 @@
                   "undergroundParkingStrctArea"
                 ]
               },
-              "BuildingId": 24242,
+              "BuildingId": 24604,
               "actualMaxLodging": 2332,
               "actualMaxResidential": 1166,
               "assumedBuildingCommonSpaceArea": 0,
@@ -1825,7 +1821,7 @@
                   "lodgingCapacityCalculated"
                 ]
               },
-              "BuildingId": 24242,
+              "BuildingId": 24604,
               "allowedBuiltArea": 1218000,
               "areaAllowedByFloorplate": 1743253,
               "commercialFoodMaxSeating": null,
@@ -1872,7 +1868,7 @@
             },
             "FloorsRangeCollection": {
               "_isReady": false,
-              "BuildingId": 24242,
+              "BuildingId": 24604,
               "collectionName": "FloorsRangeCollection",
               "FloorsRangeCollection": [
                 {
@@ -2383,7 +2379,7 @@
                       "FloorHeight"
                     ]
                   },
-                  "BuildingId": 24242,
+                  "BuildingId": 24604,
                   "startFloor": 0,
                   "endFloor": 0,
                   "buildingStructureType": 0,
@@ -2887,7 +2883,7 @@
                       "FloorHeight"
                     ]
                   },
-                  "BuildingId": 24242,
+                  "BuildingId": 24604,
                   "startFloor": 1,
                   "endFloor": 1,
                   "buildingStructureType": 2,
@@ -3391,7 +3387,7 @@
                       "FloorHeight"
                     ]
                   },
-                  "BuildingId": 24242,
+                  "BuildingId": 24604,
                   "startFloor": 2,
                   "endFloor": 8,
                   "buildingStructureType": 2,
@@ -3895,7 +3891,7 @@
                       "FloorHeight"
                     ]
                   },
-                  "BuildingId": 24242,
+                  "BuildingId": 24604,
                   "startFloor": 9,
                   "endFloor": 80,
                   "buildingStructureType": 3,
@@ -3906,8 +3902,8 @@
             },
             "CalibrationData": {
               "zcSettings": {
-                "Id": 1,
-                "ZoningCodeId": 1,
+                "Id": 205,
+                "ZoningCodeId": 205,
                 "FAREnabled": false,
                 "FLREnabled": true,
                 "MaxResidentialTowerLength": 180,
@@ -3924,24 +3920,24 @@
                 "ZoneCombination": {
                   "load": true,
                   "row": {
-                    "Id": 40,
-                    "ZoneId": 5,
-                    "SubZoneId": 10,
-                    "ZoneTypeId": 3,
+                    "Id": 6855,
+                    "ZoneId": 2088,
+                    "SubZoneId": 1936,
+                    "ZoneTypeId": 268,
                     "CreatedOn": "2015-11-26T15:59:55.000Z",
-                    "ModifiedOn": "2017-06-15T16:23:48.000Z",
+                    "ModifiedOn": "2017-07-13T10:31:16.000Z",
                     "GridicsId": 2053496,
                     "IsNotCalibrated": null,
                     "CalibrationErrorMessage": null,
                     "BuildingTypologyMandatory": false,
                     "DefaultBuildingTypology": null,
-                    "CloneId": null
+                    "CloneId": 40
                   }
                 },
                 "Bonus": {
                   "load": true,
-          "row": {
-                    "ZoneCombinationId": 40,
+                  "row": {
+                    "ZoneCombinationId": 6855,
                     "OverlayTypologyId": null,
                     "LevelBonus": 0,
                     "HeightBonus": 1,
@@ -3953,7 +3949,7 @@
                 "GeneralInfo": {
                   "load": true,
                   "row": {
-                    "ZoneCombinationId": 40,
+                    "ZoneCombinationId": 6855,
                     "OverlayTypologyId": null,
                     "PrincipalBuildingMax": 8,
                     "PrincipalBuildingMin": 2,
@@ -4022,701 +4018,13 @@
                     "PeFrontSetbackPrincipal": null,
                     "PeFrontSetbackSecondary": null,
                     "PeSideSetback": null,
-                    "PeRearSetback": null,
-                    "ResidentialTODBenefitReduction": 100
-                  }
-                },
-                "OfficeCommercial": {
-                  "load": true,
-                  "row": {
-                    "ZoneCombinationId": 40,
-                    "OverlayTypologyId": null,
-                    "OfficeMaxStories": -1,
-                    "OfficeCommercialMaxStories": -1,
-                    "OfficeCommercialMaxPercentArea": 100,
-                    "CommercialEstabMaxArea": 55000,
-                    "CommercialFoodMaxSeating": null
-                  }
-                },
-                "Parking": {
-                  "load": true,
-                  "row": {
-                    "ZoneCombinationId": 40,
-                    "OverlayTypologyId": null,
-                    "Residential": 1.5,
-                    "ResidentialVisitors": 0.1,
-                    "ResidentialTODBenefitReduction": 100,
-                    "LodgingRooms": 0.5,
-                    "LodgingVisitors": 0.07,
-                    "LodgingTODBenefitReduction": null,
-                    "Office": 0.001,
-                    "OfficeTODBenefitReduction": null,
-                    "Commercial": 0.003,
-                    "CommercialTODBenefitReduction": null,
-                    "CivicAssembly": 0.2,
-                    "CivicTODBenefitReduction": null,
-                    "TODMaxDistanceToStation": null,
-                    "TODMinDistanceToLowDensity": null
-                  }
-                },
-                "SetbackConditions": {
-                  "load": true,
-                  "row": [
-                    {
-                      "_isReady": true,
-                      "_plainModel": null,
-                      "_plainModelWithRelations": null,
-                      "entityDBSettings": {
-                        "TableName": "SetbackCondition",
-                        "KeyFields": [
-                          "ZoneCombinationId",
-                          "FieldReference",
-                          "OverlayId"
-                        ],
-                        "PreLoaded": true,
-                        "Fields": [
-                          "ZoneCombinationId",
-                          "FieldReference",
-                          "OverlayId",
-                          "SetbackConditionalReference",
-                          "SetbackConditionalComparison",
-                          "SetbackConditionalComparisonValue",
-                          "SetbackValueType",
-                          "SetbackValue",
-                          "SetbackValueReference"
-                        ]
-                      },
-                      "ZoneCombinationId": 40,
-                      "FieldReference": "PFrontSetbackPrincipal",
-                      "OverlayId": 0,
-                      "SetbackConditionalReference": null,
-                      "SetbackConditionalComparison": 1,
-                      "SetbackConditionalComparisonValue": 1,
-                      "SetbackValueType": 0,
-                      "SetbackValue": 70,
-                      "SetbackValueReference": null
-                    },
-                    {
-                      "_isReady": true,
-                      "_plainModel": null,
-                      "_plainModelWithRelations": null,
-                      "entityDBSettings": {
-                        "TableName": "SetbackCondition",
-                        "KeyFields": [
-                          "ZoneCombinationId",
-                          "FieldReference",
-                          "OverlayId"
-                        ],
-                        "PreLoaded": true,
-                        "Fields": [
-                          "ZoneCombinationId",
-                          "FieldReference",
-                          "OverlayId",
-                          "SetbackConditionalReference",
-                          "SetbackConditionalComparison",
-                          "SetbackConditionalComparisonValue",
-                          "SetbackValueType",
-                          "SetbackValue",
-                          "SetbackValueReference"
-                        ]
-                      },
-                      "ZoneCombinationId": 40,
-                      "FieldReference": "PWaterSetback",
-                      "OverlayId": -1,
-                      "SetbackConditionalReference": 1,
-                      "SetbackConditionalComparison": 0,
-                      "SetbackConditionalComparisonValue": 200,
-                      "SetbackValueType": 1,
-                      "SetbackValue": 25,
-                      "SetbackValueReference": 1
-                    }
-                  ]
-                },
-                "Uses": {
-                  "load": true,
-                  "row": [
-                    {
-                      "CalibrationUsesLabelId": 1,
-                      "TypeId": 1,
-                      "Label": "Single Family Residence",
-                      "ValueId": 1073,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 2,
-                      "TypeId": 1,
-                      "Label": "Community Residence",
-                      "ValueId": 1074,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 3,
-                      "TypeId": 1,
-                      "Label": "Ancillary Unit",
-                      "ValueId": null,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 0,
-                      "Value": "N"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 4,
-                      "TypeId": 1,
-                      "Label": "Two Family Residence",
-                      "ValueId": 1075,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 5,
-                      "TypeId": 1,
-                      "Label": "Multi Family Housing",
-                      "ValueId": 1076,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 6,
-                      "TypeId": 1,
-                      "Label": "Dormitory",
-                      "ValueId": 1077,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 7,
-                      "TypeId": 1,
-                      "Label": "Home Office",
-                      "ValueId": 1078,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 8,
-                      "TypeId": 1,
-                      "Label": "Live - Work",
-                      "ValueId": 1079,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 9,
-                      "TypeId": 1,
-                      "Label": "Work - Live",
-                      "ValueId": null,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 0,
-                      "Value": "N"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 10,
-                      "TypeId": 2,
-                      "Label": "Bed & Breakfast",
-                      "ValueId": 1080,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 11,
-                      "TypeId": 2,
-                      "Label": "Inn",
-                      "ValueId": 1081,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 12,
-                      "TypeId": 2,
-                      "Label": "Hotel",
-                      "ValueId": 1082,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 13,
-                      "TypeId": 3,
-                      "Label": "Office",
-                      "ValueId": 1083,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 14,
-                      "TypeId": 4,
-                      "Label": "Auto - Related Commercial Establs.",
-                      "ValueId": 1084,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 15,
-                      "TypeId": 4,
-                      "Label": "Entertainment Estab.",
-                      "ValueId": 1085,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 16,
-                      "TypeId": 4,
-                      "Label": "Entertainment Estab. - Adult",
-                      "ValueId": null,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 0,
-                      "Value": "N"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 17,
-                      "TypeId": 4,
-                      "Label": "Food Service Estab.",
-                      "ValueId": 1086,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 18,
-                      "TypeId": 4,
-                      "Label": "Alcohol Beverage Serv.",
-                      "ValueId": 1087,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 3,
-                      "Value": "E"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 19,
-                      "TypeId": 4,
-                      "Label": "General Commercial",
-                      "ValueId": 1088,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 20,
-                      "TypeId": 4,
-                      "Label": "Marine Related Comm.",
-                      "ValueId": 1089,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 21,
-                      "TypeId": 4,
-                      "Label": "Open Air Retail",
-                      "ValueId": 1090,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 22,
-                      "TypeId": 4,
-                      "Label": "Place of Assembly",
-                      "ValueId": 1091,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 23,
-                      "TypeId": 4,
-                      "Label": "Recreation Establs.",
-                      "ValueId": 1092,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 24,
-                      "TypeId": 5,
-                      "Label": "Community Facility",
-                      "ValueId": 1093,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 25,
-                      "TypeId": 5,
-                      "Label": "Recreational Facility",
-                      "ValueId": 1094,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 26,
-                      "TypeId": 5,
-                      "Label": "Religious Facility",
-                      "ValueId": 1095,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 27,
-                      "TypeId": 6,
-                      "Label": "Community Support Fac.",
-                      "ValueId": 1096,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 28,
-                      "TypeId": 6,
-                      "Label": "Infrastructure and Util.",
-                      "ValueId": 1097,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 29,
-                      "TypeId": 6,
-                      "Label": "Major Facility",
-                      "ValueId": null,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 0,
-                      "Value": "N"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 30,
-                      "TypeId": 6,
-                      "Label": "Marina",
-                      "ValueId": 1098,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 31,
-                      "TypeId": 6,
-                      "Label": "Public Parking",
-                      "ValueId": 1099,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 32,
-                      "TypeId": 6,
-                      "Label": "Rescue Mission",
-                      "ValueId": null,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 0,
-                      "Value": "N"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 33,
-                      "TypeId": 6,
-                      "Label": "Transit Facilities",
-                      "ValueId": 1100,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 34,
-                      "TypeId": 7,
-                      "Label": "Childcare",
-                      "ValueId": 1101,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 35,
-                      "TypeId": 7,
-                      "Label": "College / University",
-                      "ValueId": 1102,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 36,
-                      "TypeId": 7,
-                      "Label": "Elementary School",
-                      "ValueId": 1103,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 37,
-                      "TypeId": 7,
-                      "Label": "Learning Center",
-                      "ValueId": 1104,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 38,
-                      "TypeId": 7,
-                      "Label": "Middle / High School",
-                      "ValueId": 1105,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 39,
-                      "TypeId": 7,
-                      "Label": "Pre - School",
-                      "ValueId": 1106,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 40,
-                      "TypeId": 7,
-                      "Label": "Research Facility",
-                      "ValueId": 1107,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "R"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 41,
-                      "TypeId": 7,
-                      "Label": "Special Training / Vocational",
-                      "ValueId": 1108,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 2,
-                      "Value": "W"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 42,
-                      "TypeId": 8,
-                      "Label": "Auto - Related Industrial Establs.",
-                      "ValueId": null,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 0,
-                      "Value": "N"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 43,
-                      "TypeId": 8,
-                      "Label": "Manufacturing and Proccesing",
-                      "ValueId": null,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 0,
-                      "Value": "N"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 44,
-                      "TypeId": 8,
-                      "Label": "Marine Related Industrial Establs.",
-                      "ValueId": null,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 0,
-                      "Value": "N"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 45,
-                      "TypeId": 8,
-                      "Label": "Products and Services",
-                      "ValueId": null,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 0,
-                      "Value": "N"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 46,
-                      "TypeId": 8,
-                      "Label": "Storage / Distribution Facility",
-                      "ValueId": null,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 0,
-                      "Value": "N"
-                    },
-                    {
-                      "CalibrationUsesLabelId": 5978,
-                      "TypeId": 5,
-                      "Label": "Regional Activity Complex",
-                      "ValueId": 124054,
-                      "UseLimit": null,
-                      "ParkingRequired": null,
-                      "AllowedUsesId": 3,
-                      "Value": "E"
-                    }
-                  ]
-                }
-              },
-              "zcOriginalCalibrations": {
-                "ZoneCombination": {
-                  "load": true,
-                  "row": {
-                    "Id": 40,
-                    "ZoneId": 5,
-                    "SubZoneId": 10,
-                    "ZoneTypeId": 3,
-                    "CreatedOn": "2015-11-26T15:59:55.000Z",
-                    "ModifiedOn": "2017-06-15T16:23:48.000Z",
-                    "GridicsId": 2053496,
-                    "IsNotCalibrated": null,
-                    "CalibrationErrorMessage": null,
-                    "BuildingTypologyMandatory": false,
-                    "DefaultBuildingTypology": null,
-                    "CloneId": null
-                  }
-                },
-                "Bonus": {
-                  "load": true,
-                  "row": {
-                    "ZoneCombinationId": 40,
-                    "OverlayTypologyId": null,
-                    "LevelBonus": 100,
-                    "HeightBonus": 1,
-                    "FLRBonus": 50,
-                    "BrownfieldRedevelopment": 1,
-                    "ParkingReductionBonus": null
-                  }
-                },
-                "GeneralInfo": {
-                  "load": true,
-                  "row": {
-                    "ZoneCombinationId": 40,
-                    "OverlayTypologyId": null,
-                    "PrincipalBuildingMax": 8,
-                    "PrincipalBuildingMin": 2,
-                    "Outbuilding": null,
-                    "FacadePrimaryFrontage": 70,
-                    "FacadeSecondaryFrontage": 50,
-                    "PkgFacadeWidthMax": null,
-                    "Tower": 80,
-                    "LotAreaMin": 5000,
-                    "LotAreaMax": null,
-                    "LotAreaMinAlley": 5000,
-                    "LotAreaMaxAlley": null,
-                    "LotWidthMin": 100,
-                    "LotWidthMinAlley": null,
-                    "LotWidthMax": null,
-                    "GreenSpace": 10,
-                    "LotCoverageFirstFloor": 80,
-                    "LotCoverageSecondFloor": null,
-                    "TowerFloorplateAreaResidential": 18000,
-                    "TowerFloorplateAreaCommercial": 30000,
-                    "SecondLayerDimension": 15,
-                    "DensityNet": 150,
-                    "LodgingExchange": 2,
-                    "FLR": 24,
-                    "PFrontSetbackPrincipal": 10,
-                    "PFrontSetbackSecondary": 10,
-                    "PSideSetback": 0,
-                    "PRearSetback": 0,
-                    "OFrontSetbackPrincipal": null,
-                    "OSideSetback": null,
-                    "OSideSetbackAtCorner": null,
-                    "ORearSetback": null,
-                    "TFrontSetbackPrincipal": 20,
-                    "TFrontSetbackSecondary": 20,
-                    "TSideSetback": 30,
-                    "TRearSetback": 30,
-                    "TSetbackBetweenTowers": 60,
-                    "UFrontSetbackPrincipal": 0,
-                    "UFrontSetbackSecondary": 0,
-                    "USideSetback": 0,
-                    "URearSetback": 0,
-                    "CommonLawn": true,
-                    "PorchAndFence": false,
-                    "TerraceOrLightwell": false,
-                    "Forecourt": true,
-                    "Stoop": true,
-                    "Shopfront": true,
-                    "Gallery": false,
-                    "Arcade": false,
-                    "PrincipalBuildingHgt": null,
-                    "ActivePrimaryFrontageGround": true,
-                    "ActivePrimaryFrontageAbove": true,
-                    "ActiveSecondaryFrontageGround": true,
-                    "ActiveSecondaryFrontageAbove": true,
-                    "ActiveWaterFrontageGround": true,
-                    "ActiveWaterFrontageAbove": true,
-                    "Penthouse": null,
-                    "TowerHgt": null,
-                    "PenthouseFloorPlate": null,
-                    "UnitAreaMin": 400,
-                    "UnitAreaMax": null,
-                    "RoomAreaMin": null,
-                    "RoomAreaMax": null,
-                    "PWaterSetback": 50,
-                    "TWaterSetback": 50,
-                    "PeFrontSetbackPrincipal": null,
-                    "PeFrontSetbackSecondary": null,
-                    "PeSideSetback": null,
                     "PeRearSetback": null
                   }
                 },
                 "OfficeCommercial": {
                   "load": true,
                   "row": {
-                    "ZoneCombinationId": 40,
+                    "ZoneCombinationId": 6855,
                     "OverlayTypologyId": null,
                     "OfficeMaxStories": -1,
                     "OfficeCommercialMaxStories": -1,
@@ -4728,7 +4036,7 @@
                 "Parking": {
                   "load": true,
                   "row": {
-                    "ZoneCombinationId": 40,
+                    "ZoneCombinationId": 6855,
                     "OverlayTypologyId": null,
                     "Residential": 1.5,
                     "ResidentialVisitors": 0.1,
@@ -4773,7 +4081,7 @@
                           "SetbackValueReference"
                         ]
                       },
-                      "ZoneCombinationId": 40,
+                      "ZoneCombinationId": 6855,
                       "FieldReference": "PFrontSetbackPrincipal",
                       "OverlayId": 0,
                       "SetbackConditionalReference": null,
@@ -4807,7 +4115,7 @@
                           "SetbackValueReference"
                         ]
                       },
-                      "ZoneCombinationId": 40,
+                      "ZoneCombinationId": 6855,
                       "FieldReference": "PWaterSetback",
                       "OverlayId": -1,
                       "SetbackConditionalReference": 1,
@@ -4823,27 +4131,27 @@
                   "load": true,
                   "row": [
                     {
-                      "CalibrationUsesLabelId": 1,
+                      "CalibrationUsesLabelId": 7140,
                       "TypeId": 1,
                       "Label": "Single Family Residence",
-                      "ValueId": 1073,
+                      "ValueId": 163381,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 2,
+                      "CalibrationUsesLabelId": 7141,
                       "TypeId": 1,
                       "Label": "Community Residence",
-                      "ValueId": 1074,
+                      "ValueId": 163382,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 3,
+                      "CalibrationUsesLabelId": 7142,
                       "TypeId": 1,
                       "Label": "Ancillary Unit",
                       "ValueId": null,
@@ -4853,57 +4161,57 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 4,
+                      "CalibrationUsesLabelId": 7143,
                       "TypeId": 1,
                       "Label": "Two Family Residence",
-                      "ValueId": 1075,
+                      "ValueId": 163383,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 5,
+                      "CalibrationUsesLabelId": 7144,
                       "TypeId": 1,
                       "Label": "Multi Family Housing",
-                      "ValueId": 1076,
+                      "ValueId": 163384,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 6,
+                      "CalibrationUsesLabelId": 7145,
                       "TypeId": 1,
                       "Label": "Dormitory",
-                      "ValueId": 1077,
+                      "ValueId": 163385,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 7,
+                      "CalibrationUsesLabelId": 7146,
                       "TypeId": 1,
                       "Label": "Home Office",
-                      "ValueId": 1078,
+                      "ValueId": 163386,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 8,
+                      "CalibrationUsesLabelId": 7147,
                       "TypeId": 1,
                       "Label": "Live - Work",
-                      "ValueId": 1079,
+                      "ValueId": 163387,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 9,
+                      "CalibrationUsesLabelId": 7148,
                       "TypeId": 1,
                       "Label": "Work - Live",
                       "ValueId": null,
@@ -4913,67 +4221,67 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 10,
+                      "CalibrationUsesLabelId": 7149,
                       "TypeId": 2,
                       "Label": "Bed & Breakfast",
-                      "ValueId": 1080,
+                      "ValueId": 163388,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 11,
+                      "CalibrationUsesLabelId": 7150,
                       "TypeId": 2,
                       "Label": "Inn",
-                      "ValueId": 1081,
+                      "ValueId": 163389,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 12,
+                      "CalibrationUsesLabelId": 7151,
                       "TypeId": 2,
                       "Label": "Hotel",
-                      "ValueId": 1082,
+                      "ValueId": 163390,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 13,
+                      "CalibrationUsesLabelId": 7152,
                       "TypeId": 3,
                       "Label": "Office",
-                      "ValueId": 1083,
+                      "ValueId": 163391,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 14,
+                      "CalibrationUsesLabelId": 7153,
                       "TypeId": 4,
                       "Label": "Auto - Related Commercial Establs.",
-                      "ValueId": 1084,
+                      "ValueId": 163392,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 15,
+                      "CalibrationUsesLabelId": 7154,
                       "TypeId": 4,
                       "Label": "Entertainment Estab.",
-                      "ValueId": 1085,
+                      "ValueId": 163393,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 16,
+                      "CalibrationUsesLabelId": 7155,
                       "TypeId": 4,
                       "Label": "Entertainment Estab. - Adult",
                       "ValueId": null,
@@ -4983,127 +4291,127 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 17,
+                      "CalibrationUsesLabelId": 7156,
                       "TypeId": 4,
                       "Label": "Food Service Estab.",
-                      "ValueId": 1086,
+                      "ValueId": 163394,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 18,
+                      "CalibrationUsesLabelId": 7157,
                       "TypeId": 4,
                       "Label": "Alcohol Beverage Serv.",
-                      "ValueId": 1087,
+                      "ValueId": 163395,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 3,
+                      "AllowedUsesId": 615,
                       "Value": "E"
                     },
                     {
-                      "CalibrationUsesLabelId": 19,
+                      "CalibrationUsesLabelId": 7158,
                       "TypeId": 4,
                       "Label": "General Commercial",
-                      "ValueId": 1088,
+                      "ValueId": 163396,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 20,
+                      "CalibrationUsesLabelId": 7159,
                       "TypeId": 4,
                       "Label": "Marine Related Comm.",
-                      "ValueId": 1089,
+                      "ValueId": 163397,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 21,
+                      "CalibrationUsesLabelId": 7160,
                       "TypeId": 4,
                       "Label": "Open Air Retail",
-                      "ValueId": 1090,
+                      "ValueId": 163398,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 22,
+                      "CalibrationUsesLabelId": 7161,
                       "TypeId": 4,
                       "Label": "Place of Assembly",
-                      "ValueId": 1091,
+                      "ValueId": 163399,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 23,
+                      "CalibrationUsesLabelId": 7162,
                       "TypeId": 4,
                       "Label": "Recreation Establs.",
-                      "ValueId": 1092,
+                      "ValueId": 163400,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 24,
+                      "CalibrationUsesLabelId": 7163,
                       "TypeId": 5,
                       "Label": "Community Facility",
-                      "ValueId": 1093,
+                      "ValueId": 163401,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 25,
+                      "CalibrationUsesLabelId": 7164,
                       "TypeId": 5,
                       "Label": "Recreational Facility",
-                      "ValueId": 1094,
+                      "ValueId": 163402,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 26,
+                      "CalibrationUsesLabelId": 7165,
                       "TypeId": 5,
                       "Label": "Religious Facility",
-                      "ValueId": 1095,
+                      "ValueId": 163403,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 27,
+                      "CalibrationUsesLabelId": 7166,
                       "TypeId": 6,
                       "Label": "Community Support Fac.",
-                      "ValueId": 1096,
+                      "ValueId": 163404,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 28,
+                      "CalibrationUsesLabelId": 7167,
                       "TypeId": 6,
                       "Label": "Infrastructure and Util.",
-                      "ValueId": 1097,
+                      "ValueId": 163405,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 29,
+                      "CalibrationUsesLabelId": 7168,
                       "TypeId": 6,
                       "Label": "Major Facility",
                       "ValueId": null,
@@ -5113,27 +4421,27 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 30,
+                      "CalibrationUsesLabelId": 7169,
                       "TypeId": 6,
                       "Label": "Marina",
-                      "ValueId": 1098,
+                      "ValueId": 163406,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 31,
+                      "CalibrationUsesLabelId": 7170,
                       "TypeId": 6,
                       "Label": "Public Parking",
-                      "ValueId": 1099,
+                      "ValueId": 163407,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 32,
+                      "CalibrationUsesLabelId": 7171,
                       "TypeId": 6,
                       "Label": "Rescue Mission",
                       "ValueId": null,
@@ -5143,97 +4451,97 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 33,
+                      "CalibrationUsesLabelId": 7172,
                       "TypeId": 6,
                       "Label": "Transit Facilities",
-                      "ValueId": 1100,
+                      "ValueId": 163408,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 34,
+                      "CalibrationUsesLabelId": 7173,
                       "TypeId": 7,
                       "Label": "Childcare",
-                      "ValueId": 1101,
+                      "ValueId": 163409,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 35,
+                      "CalibrationUsesLabelId": 7174,
                       "TypeId": 7,
                       "Label": "College / University",
-                      "ValueId": 1102,
+                      "ValueId": 163410,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 36,
+                      "CalibrationUsesLabelId": 7175,
                       "TypeId": 7,
                       "Label": "Elementary School",
-                      "ValueId": 1103,
+                      "ValueId": 163411,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 37,
+                      "CalibrationUsesLabelId": 7176,
                       "TypeId": 7,
                       "Label": "Learning Center",
-                      "ValueId": 1104,
+                      "ValueId": 163412,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 38,
+                      "CalibrationUsesLabelId": 7177,
                       "TypeId": 7,
                       "Label": "Middle / High School",
-                      "ValueId": 1105,
+                      "ValueId": 163413,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 39,
+                      "CalibrationUsesLabelId": 7178,
                       "TypeId": 7,
                       "Label": "Pre - School",
-                      "ValueId": 1106,
+                      "ValueId": 163414,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 40,
+                      "CalibrationUsesLabelId": 7179,
                       "TypeId": 7,
                       "Label": "Research Facility",
-                      "ValueId": 1107,
+                      "ValueId": 163415,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 41,
+                      "CalibrationUsesLabelId": 7180,
                       "TypeId": 7,
                       "Label": "Special Training / Vocational",
-                      "ValueId": 1108,
+                      "ValueId": 163416,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 42,
+                      "CalibrationUsesLabelId": 7181,
                       "TypeId": 8,
                       "Label": "Auto - Related Industrial Establs.",
                       "ValueId": null,
@@ -5243,7 +4551,7 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 43,
+                      "CalibrationUsesLabelId": 7182,
                       "TypeId": 8,
                       "Label": "Manufacturing and Proccesing",
                       "ValueId": null,
@@ -5253,7 +4561,7 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 44,
+                      "CalibrationUsesLabelId": 7183,
                       "TypeId": 8,
                       "Label": "Marine Related Industrial Establs.",
                       "ValueId": null,
@@ -5263,7 +4571,7 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 45,
+                      "CalibrationUsesLabelId": 7184,
                       "TypeId": 8,
                       "Label": "Products and Services",
                       "ValueId": null,
@@ -5273,7 +4581,7 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 46,
+                      "CalibrationUsesLabelId": 7185,
                       "TypeId": 8,
                       "Label": "Storage / Distribution Facility",
                       "ValueId": null,
@@ -5283,13 +4591,700 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 5978,
+                      "CalibrationUsesLabelId": 7186,
                       "TypeId": 5,
                       "Label": "Regional Activity Complex",
-                      "ValueId": 124054,
+                      "ValueId": 163876,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 3,
+                      "AllowedUsesId": 615,
+                      "Value": "E"
+                    }
+                  ]
+                }
+              },
+              "zcOriginalCalibrations": {
+                "ZoneCombination": {
+                  "load": true,
+                  "row": {
+                    "Id": 6855,
+                    "ZoneId": 2088,
+                    "SubZoneId": 1936,
+                    "ZoneTypeId": 268,
+                    "CreatedOn": "2015-11-26T15:59:55.000Z",
+                    "ModifiedOn": "2017-07-13T10:31:16.000Z",
+                    "GridicsId": 2053496,
+                    "IsNotCalibrated": null,
+                    "CalibrationErrorMessage": null,
+                    "BuildingTypologyMandatory": false,
+                    "DefaultBuildingTypology": null,
+                    "CloneId": 40
+                  }
+                },
+                "Bonus": {
+                  "load": true,
+                  "row": {
+                    "ZoneCombinationId": 6855,
+                    "OverlayTypologyId": null,
+                    "LevelBonus": 100,
+                    "HeightBonus": 1,
+                    "FLRBonus": 50,
+                    "BrownfieldRedevelopment": 1,
+                    "ParkingReductionBonus": null
+                  }
+                },
+                "GeneralInfo": {
+                  "load": true,
+                  "row": {
+                    "ZoneCombinationId": 6855,
+                    "OverlayTypologyId": null,
+                    "PrincipalBuildingMax": 8,
+                    "PrincipalBuildingMin": 2,
+                    "Outbuilding": null,
+                    "FacadePrimaryFrontage": 70,
+                    "FacadeSecondaryFrontage": 50,
+                    "PkgFacadeWidthMax": null,
+                    "Tower": 80,
+                    "LotAreaMin": 5000,
+                    "LotAreaMax": null,
+                    "LotAreaMinAlley": 5000,
+                    "LotAreaMaxAlley": null,
+                    "LotWidthMin": 100,
+                    "LotWidthMinAlley": null,
+                    "LotWidthMax": null,
+                    "GreenSpace": 10,
+                    "LotCoverageFirstFloor": 80,
+                    "LotCoverageSecondFloor": null,
+                    "TowerFloorplateAreaResidential": 18000,
+                    "TowerFloorplateAreaCommercial": 30000,
+                    "SecondLayerDimension": 15,
+                    "DensityNet": 150,
+                    "LodgingExchange": 2,
+                    "FLR": 24,
+                    "PFrontSetbackPrincipal": 10,
+                    "PFrontSetbackSecondary": 10,
+                    "PSideSetback": 0,
+                    "PRearSetback": 0,
+                    "OFrontSetbackPrincipal": null,
+                    "OSideSetback": null,
+                    "OSideSetbackAtCorner": null,
+                    "ORearSetback": null,
+                    "TFrontSetbackPrincipal": 20,
+                    "TFrontSetbackSecondary": 20,
+                    "TSideSetback": 30,
+                    "TRearSetback": 30,
+                    "TSetbackBetweenTowers": 60,
+                    "UFrontSetbackPrincipal": 0,
+                    "UFrontSetbackSecondary": 0,
+                    "USideSetback": 0,
+                    "URearSetback": 0,
+                    "CommonLawn": false,
+                    "PorchAndFence": false,
+                    "TerraceOrLightwell": false,
+                    "Forecourt": true,
+                    "Stoop": true,
+                    "Shopfront": true,
+                    "Gallery": false,
+                    "Arcade": false,
+                    "PrincipalBuildingHgt": null,
+                    "ActivePrimaryFrontageGround": true,
+                    "ActivePrimaryFrontageAbove": true,
+                    "ActiveSecondaryFrontageGround": true,
+                    "ActiveSecondaryFrontageAbove": true,
+                    "ActiveWaterFrontageGround": true,
+                    "ActiveWaterFrontageAbove": true,
+                    "Penthouse": null,
+                    "TowerHgt": null,
+                    "PenthouseFloorPlate": null,
+                    "UnitAreaMin": 400,
+                    "UnitAreaMax": null,
+                    "RoomAreaMin": null,
+                    "RoomAreaMax": null,
+                    "PWaterSetback": 50,
+                    "TWaterSetback": 50,
+                    "PeFrontSetbackPrincipal": null,
+                    "PeFrontSetbackSecondary": null,
+                    "PeSideSetback": null,
+                    "PeRearSetback": null
+                  }
+                },
+                "OfficeCommercial": {
+                  "load": true,
+                  "row": {
+                    "ZoneCombinationId": 6855,
+                    "OverlayTypologyId": null,
+                    "OfficeMaxStories": -1,
+                    "OfficeCommercialMaxStories": -1,
+                    "OfficeCommercialMaxPercentArea": 100,
+                    "CommercialEstabMaxArea": 55000,
+                    "CommercialFoodMaxSeating": null
+                  }
+                },
+                "Parking": {
+                  "load": true,
+                  "row": {
+                    "ZoneCombinationId": 6855,
+                    "OverlayTypologyId": null,
+                    "Residential": 1.5,
+                    "ResidentialVisitors": 0.1,
+                    "ResidentialTODBenefitReduction": null,
+                    "LodgingRooms": 0.5,
+                    "LodgingVisitors": 0.07,
+                    "LodgingTODBenefitReduction": null,
+                    "Office": 0.001,
+                    "OfficeTODBenefitReduction": null,
+                    "Commercial": 0.003,
+                    "CommercialTODBenefitReduction": null,
+                    "CivicAssembly": 0.2,
+                    "CivicTODBenefitReduction": null,
+                    "TODMaxDistanceToStation": null,
+                    "TODMinDistanceToLowDensity": null
+                  }
+                },
+                "SetbackConditions": {
+                  "load": true,
+                  "row": [
+                    {
+                      "_isReady": true,
+                      "_plainModel": null,
+                      "_plainModelWithRelations": null,
+                      "entityDBSettings": {
+                        "TableName": "SetbackCondition",
+                        "KeyFields": [
+                          "ZoneCombinationId",
+                          "FieldReference",
+                          "OverlayId"
+                        ],
+                        "PreLoaded": true,
+                        "Fields": [
+                          "ZoneCombinationId",
+                          "FieldReference",
+                          "OverlayId",
+                          "SetbackConditionalReference",
+                          "SetbackConditionalComparison",
+                          "SetbackConditionalComparisonValue",
+                          "SetbackValueType",
+                          "SetbackValue",
+                          "SetbackValueReference"
+                        ]
+                      },
+                      "ZoneCombinationId": 6855,
+                      "FieldReference": "PFrontSetbackPrincipal",
+                      "OverlayId": 0,
+                      "SetbackConditionalReference": null,
+                      "SetbackConditionalComparison": 1,
+                      "SetbackConditionalComparisonValue": 1,
+                      "SetbackValueType": 0,
+                      "SetbackValue": 70,
+                      "SetbackValueReference": null
+                    },
+                    {
+                      "_isReady": true,
+                      "_plainModel": null,
+                      "_plainModelWithRelations": null,
+                      "entityDBSettings": {
+                        "TableName": "SetbackCondition",
+                        "KeyFields": [
+                          "ZoneCombinationId",
+                          "FieldReference",
+                          "OverlayId"
+                        ],
+                        "PreLoaded": true,
+                        "Fields": [
+                          "ZoneCombinationId",
+                          "FieldReference",
+                          "OverlayId",
+                          "SetbackConditionalReference",
+                          "SetbackConditionalComparison",
+                          "SetbackConditionalComparisonValue",
+                          "SetbackValueType",
+                          "SetbackValue",
+                          "SetbackValueReference"
+                        ]
+                      },
+                      "ZoneCombinationId": 6855,
+                      "FieldReference": "PWaterSetback",
+                      "OverlayId": -1,
+                      "SetbackConditionalReference": 1,
+                      "SetbackConditionalComparison": 0,
+                      "SetbackConditionalComparisonValue": 200,
+                      "SetbackValueType": 1,
+                      "SetbackValue": 25,
+                      "SetbackValueReference": 1
+                    }
+                  ]
+                },
+                "Uses": {
+                  "load": true,
+                  "row": [
+                    {
+                      "CalibrationUsesLabelId": 7140,
+                      "TypeId": 1,
+                      "Label": "Single Family Residence",
+                      "ValueId": 163381,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7141,
+                      "TypeId": 1,
+                      "Label": "Community Residence",
+                      "ValueId": 163382,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7142,
+                      "TypeId": 1,
+                      "Label": "Ancillary Unit",
+                      "ValueId": null,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 0,
+                      "Value": "N"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7143,
+                      "TypeId": 1,
+                      "Label": "Two Family Residence",
+                      "ValueId": 163383,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7144,
+                      "TypeId": 1,
+                      "Label": "Multi Family Housing",
+                      "ValueId": 163384,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7145,
+                      "TypeId": 1,
+                      "Label": "Dormitory",
+                      "ValueId": 163385,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7146,
+                      "TypeId": 1,
+                      "Label": "Home Office",
+                      "ValueId": 163386,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7147,
+                      "TypeId": 1,
+                      "Label": "Live - Work",
+                      "ValueId": 163387,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7148,
+                      "TypeId": 1,
+                      "Label": "Work - Live",
+                      "ValueId": null,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 0,
+                      "Value": "N"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7149,
+                      "TypeId": 2,
+                      "Label": "Bed & Breakfast",
+                      "ValueId": 163388,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7150,
+                      "TypeId": 2,
+                      "Label": "Inn",
+                      "ValueId": 163389,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7151,
+                      "TypeId": 2,
+                      "Label": "Hotel",
+                      "ValueId": 163390,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7152,
+                      "TypeId": 3,
+                      "Label": "Office",
+                      "ValueId": 163391,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7153,
+                      "TypeId": 4,
+                      "Label": "Auto - Related Commercial Establs.",
+                      "ValueId": 163392,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7154,
+                      "TypeId": 4,
+                      "Label": "Entertainment Estab.",
+                      "ValueId": 163393,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7155,
+                      "TypeId": 4,
+                      "Label": "Entertainment Estab. - Adult",
+                      "ValueId": null,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 0,
+                      "Value": "N"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7156,
+                      "TypeId": 4,
+                      "Label": "Food Service Estab.",
+                      "ValueId": 163394,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7157,
+                      "TypeId": 4,
+                      "Label": "Alcohol Beverage Serv.",
+                      "ValueId": 163395,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 615,
+                      "Value": "E"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7158,
+                      "TypeId": 4,
+                      "Label": "General Commercial",
+                      "ValueId": 163396,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7159,
+                      "TypeId": 4,
+                      "Label": "Marine Related Comm.",
+                      "ValueId": 163397,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7160,
+                      "TypeId": 4,
+                      "Label": "Open Air Retail",
+                      "ValueId": 163398,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7161,
+                      "TypeId": 4,
+                      "Label": "Place of Assembly",
+                      "ValueId": 163399,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7162,
+                      "TypeId": 4,
+                      "Label": "Recreation Establs.",
+                      "ValueId": 163400,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7163,
+                      "TypeId": 5,
+                      "Label": "Community Facility",
+                      "ValueId": 163401,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7164,
+                      "TypeId": 5,
+                      "Label": "Recreational Facility",
+                      "ValueId": 163402,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7165,
+                      "TypeId": 5,
+                      "Label": "Religious Facility",
+                      "ValueId": 163403,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7166,
+                      "TypeId": 6,
+                      "Label": "Community Support Fac.",
+                      "ValueId": 163404,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7167,
+                      "TypeId": 6,
+                      "Label": "Infrastructure and Util.",
+                      "ValueId": 163405,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7168,
+                      "TypeId": 6,
+                      "Label": "Major Facility",
+                      "ValueId": null,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 0,
+                      "Value": "N"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7169,
+                      "TypeId": 6,
+                      "Label": "Marina",
+                      "ValueId": 163406,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7170,
+                      "TypeId": 6,
+                      "Label": "Public Parking",
+                      "ValueId": 163407,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7171,
+                      "TypeId": 6,
+                      "Label": "Rescue Mission",
+                      "ValueId": null,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 0,
+                      "Value": "N"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7172,
+                      "TypeId": 6,
+                      "Label": "Transit Facilities",
+                      "ValueId": 163408,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7173,
+                      "TypeId": 7,
+                      "Label": "Childcare",
+                      "ValueId": 163409,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7174,
+                      "TypeId": 7,
+                      "Label": "College / University",
+                      "ValueId": 163410,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7175,
+                      "TypeId": 7,
+                      "Label": "Elementary School",
+                      "ValueId": 163411,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7176,
+                      "TypeId": 7,
+                      "Label": "Learning Center",
+                      "ValueId": 163412,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7177,
+                      "TypeId": 7,
+                      "Label": "Middle / High School",
+                      "ValueId": 163413,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7178,
+                      "TypeId": 7,
+                      "Label": "Pre - School",
+                      "ValueId": 163414,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7179,
+                      "TypeId": 7,
+                      "Label": "Research Facility",
+                      "ValueId": 163415,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 613,
+                      "Value": "R"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7180,
+                      "TypeId": 7,
+                      "Label": "Special Training / Vocational",
+                      "ValueId": 163416,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 614,
+                      "Value": "W"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7181,
+                      "TypeId": 8,
+                      "Label": "Auto - Related Industrial Establs.",
+                      "ValueId": null,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 0,
+                      "Value": "N"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7182,
+                      "TypeId": 8,
+                      "Label": "Manufacturing and Proccesing",
+                      "ValueId": null,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 0,
+                      "Value": "N"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7183,
+                      "TypeId": 8,
+                      "Label": "Marine Related Industrial Establs.",
+                      "ValueId": null,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 0,
+                      "Value": "N"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7184,
+                      "TypeId": 8,
+                      "Label": "Products and Services",
+                      "ValueId": null,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 0,
+                      "Value": "N"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7185,
+                      "TypeId": 8,
+                      "Label": "Storage / Distribution Facility",
+                      "ValueId": null,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 0,
+                      "Value": "N"
+                    },
+                    {
+                      "CalibrationUsesLabelId": 7186,
+                      "TypeId": 5,
+                      "Label": "Regional Activity Complex",
+                      "ValueId": 163876,
+                      "UseLimit": null,
+                      "ParkingRequired": null,
+                      "AllowedUsesId": 615,
                       "Value": "E"
                     }
                   ]
@@ -5299,24 +5294,24 @@
                 "ZoneCombination": {
                   "load": true,
                   "row": {
-                    "Id": 40,
-                    "ZoneId": 5,
-                    "SubZoneId": 10,
-                    "ZoneTypeId": 3,
+                    "Id": 6855,
+                    "ZoneId": 2088,
+                    "SubZoneId": 1936,
+                    "ZoneTypeId": 268,
                     "CreatedOn": "2015-11-26T15:59:55.000Z",
-                    "ModifiedOn": "2017-06-15T16:23:48.000Z",
+                    "ModifiedOn": "2017-07-13T10:31:16.000Z",
                     "GridicsId": 2053496,
                     "IsNotCalibrated": null,
                     "CalibrationErrorMessage": null,
                     "BuildingTypologyMandatory": false,
                     "DefaultBuildingTypology": null,
-                    "CloneId": null
+                    "CloneId": 40
                   }
                 },
                 "Bonus": {
                   "load": true,
                   "row": {
-                    "ZoneCombinationId": 40,
+                    "ZoneCombinationId": 6855,
                     "OverlayTypologyId": null,
                     "LevelBonus": 100,
                     "HeightBonus": 1,
@@ -5328,7 +5323,7 @@
                 "GeneralInfo": {
                   "load": true,
                   "row": {
-                    "ZoneCombinationId": 40,
+                    "ZoneCombinationId": 6855,
                     "OverlayTypologyId": null,
                     "PrincipalBuildingMax": 8,
                     "PrincipalBuildingMin": 2,
@@ -5397,14 +5392,13 @@
                     "PeFrontSetbackPrincipal": null,
                     "PeFrontSetbackSecondary": null,
                     "PeSideSetback": null,
-                    "PeRearSetback": null,
-                    "ResidentialTODBenefitReduction": 100
+                    "PeRearSetback": null
                   }
                 },
                 "OfficeCommercial": {
                   "load": true,
                   "row": {
-                    "ZoneCombinationId": 40,
+                    "ZoneCombinationId": 6855,
                     "OverlayTypologyId": null,
                     "OfficeMaxStories": -1,
                     "OfficeCommercialMaxStories": -1,
@@ -5416,11 +5410,11 @@
                 "Parking": {
                   "load": true,
                   "row": {
-                    "ZoneCombinationId": 40,
+                    "ZoneCombinationId": 6855,
                     "OverlayTypologyId": null,
                     "Residential": 1.5,
                     "ResidentialVisitors": 0.1,
-                    "ResidentialTODBenefitReduction": 100,
+                    "ResidentialTODBenefitReduction": null,
                     "LodgingRooms": 0.5,
                     "LodgingVisitors": 0.07,
                     "LodgingTODBenefitReduction": null,
@@ -5461,7 +5455,7 @@
                           "SetbackValueReference"
                         ]
                       },
-                      "ZoneCombinationId": 40,
+                      "ZoneCombinationId": 6855,
                       "FieldReference": "PFrontSetbackPrincipal",
                       "OverlayId": 0,
                       "SetbackConditionalReference": null,
@@ -5495,7 +5489,7 @@
                           "SetbackValueReference"
                         ]
                       },
-                      "ZoneCombinationId": 40,
+                      "ZoneCombinationId": 6855,
                       "FieldReference": "PWaterSetback",
                       "OverlayId": -1,
                       "SetbackConditionalReference": 1,
@@ -5511,27 +5505,27 @@
                   "load": true,
                   "row": [
                     {
-                      "CalibrationUsesLabelId": 1,
+                      "CalibrationUsesLabelId": 7140,
                       "TypeId": 1,
                       "Label": "Single Family Residence",
-                      "ValueId": 1073,
+                      "ValueId": 163381,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 2,
+                      "CalibrationUsesLabelId": 7141,
                       "TypeId": 1,
                       "Label": "Community Residence",
-                      "ValueId": 1074,
+                      "ValueId": 163382,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 3,
+                      "CalibrationUsesLabelId": 7142,
                       "TypeId": 1,
                       "Label": "Ancillary Unit",
                       "ValueId": null,
@@ -5541,57 +5535,57 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 4,
+                      "CalibrationUsesLabelId": 7143,
                       "TypeId": 1,
                       "Label": "Two Family Residence",
-                      "ValueId": 1075,
+                      "ValueId": 163383,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 5,
+                      "CalibrationUsesLabelId": 7144,
                       "TypeId": 1,
                       "Label": "Multi Family Housing",
-                      "ValueId": 1076,
+                      "ValueId": 163384,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
-                      "Value": "r"
+                      "AllowedUsesId": 613,
+                      "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 6,
+                      "CalibrationUsesLabelId": 7145,
                       "TypeId": 1,
                       "Label": "Dormitory",
-                      "ValueId": 1077,
+                      "ValueId": 163385,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 7,
+                      "CalibrationUsesLabelId": 7146,
                       "TypeId": 1,
                       "Label": "Home Office",
-                      "ValueId": 1078,
+                      "ValueId": 163386,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 8,
+                      "CalibrationUsesLabelId": 7147,
                       "TypeId": 1,
                       "Label": "Live - Work",
-                      "ValueId": 1079,
+                      "ValueId": 163387,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 9,
+                      "CalibrationUsesLabelId": 7148,
                       "TypeId": 1,
                       "Label": "Work - Live",
                       "ValueId": null,
@@ -5601,67 +5595,67 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 10,
+                      "CalibrationUsesLabelId": 7149,
                       "TypeId": 2,
                       "Label": "Bed & Breakfast",
-                      "ValueId": 1080,
+                      "ValueId": 163388,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 11,
+                      "CalibrationUsesLabelId": 7150,
                       "TypeId": 2,
                       "Label": "Inn",
-                      "ValueId": 1081,
+                      "ValueId": 163389,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 12,
+                      "CalibrationUsesLabelId": 7151,
                       "TypeId": 2,
                       "Label": "Hotel",
-                      "ValueId": 1082,
+                      "ValueId": 163390,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 13,
+                      "CalibrationUsesLabelId": 7152,
                       "TypeId": 3,
                       "Label": "Office",
-                      "ValueId": 1083,
+                      "ValueId": 163391,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 14,
+                      "CalibrationUsesLabelId": 7153,
                       "TypeId": 4,
                       "Label": "Auto - Related Commercial Establs.",
-                      "ValueId": 1084,
+                      "ValueId": 163392,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 15,
+                      "CalibrationUsesLabelId": 7154,
                       "TypeId": 4,
                       "Label": "Entertainment Estab.",
-                      "ValueId": 1085,
+                      "ValueId": 163393,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 16,
+                      "CalibrationUsesLabelId": 7155,
                       "TypeId": 4,
                       "Label": "Entertainment Estab. - Adult",
                       "ValueId": null,
@@ -5671,127 +5665,127 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 17,
+                      "CalibrationUsesLabelId": 7156,
                       "TypeId": 4,
                       "Label": "Food Service Estab.",
-                      "ValueId": 1086,
+                      "ValueId": 163394,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 18,
+                      "CalibrationUsesLabelId": 7157,
                       "TypeId": 4,
                       "Label": "Alcohol Beverage Serv.",
-                      "ValueId": 1087,
+                      "ValueId": 163395,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 3,
+                      "AllowedUsesId": 615,
                       "Value": "E"
                     },
                     {
-                      "CalibrationUsesLabelId": 19,
+                      "CalibrationUsesLabelId": 7158,
                       "TypeId": 4,
                       "Label": "General Commercial",
-                      "ValueId": 1088,
+                      "ValueId": 163396,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 20,
+                      "CalibrationUsesLabelId": 7159,
                       "TypeId": 4,
                       "Label": "Marine Related Comm.",
-                      "ValueId": 1089,
+                      "ValueId": 163397,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 21,
+                      "CalibrationUsesLabelId": 7160,
                       "TypeId": 4,
                       "Label": "Open Air Retail",
-                      "ValueId": 1090,
+                      "ValueId": 163398,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 22,
+                      "CalibrationUsesLabelId": 7161,
                       "TypeId": 4,
                       "Label": "Place of Assembly",
-                      "ValueId": 1091,
+                      "ValueId": 163399,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 23,
+                      "CalibrationUsesLabelId": 7162,
                       "TypeId": 4,
                       "Label": "Recreation Establs.",
-                      "ValueId": 1092,
+                      "ValueId": 163400,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 24,
+                      "CalibrationUsesLabelId": 7163,
                       "TypeId": 5,
                       "Label": "Community Facility",
-                      "ValueId": 1093,
+                      "ValueId": 163401,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 25,
+                      "CalibrationUsesLabelId": 7164,
                       "TypeId": 5,
                       "Label": "Recreational Facility",
-                      "ValueId": 1094,
+                      "ValueId": 163402,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 26,
+                      "CalibrationUsesLabelId": 7165,
                       "TypeId": 5,
                       "Label": "Religious Facility",
-                      "ValueId": 1095,
+                      "ValueId": 163403,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 27,
+                      "CalibrationUsesLabelId": 7166,
                       "TypeId": 6,
                       "Label": "Community Support Fac.",
-                      "ValueId": 1096,
+                      "ValueId": 163404,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 28,
+                      "CalibrationUsesLabelId": 7167,
                       "TypeId": 6,
                       "Label": "Infrastructure and Util.",
-                      "ValueId": 1097,
+                      "ValueId": 163405,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 29,
+                      "CalibrationUsesLabelId": 7168,
                       "TypeId": 6,
                       "Label": "Major Facility",
                       "ValueId": null,
@@ -5801,27 +5795,27 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 30,
+                      "CalibrationUsesLabelId": 7169,
                       "TypeId": 6,
                       "Label": "Marina",
-                      "ValueId": 1098,
+                      "ValueId": 163406,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 31,
+                      "CalibrationUsesLabelId": 7170,
                       "TypeId": 6,
                       "Label": "Public Parking",
-                      "ValueId": 1099,
+                      "ValueId": 163407,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 32,
+                      "CalibrationUsesLabelId": 7171,
                       "TypeId": 6,
                       "Label": "Rescue Mission",
                       "ValueId": null,
@@ -5831,97 +5825,97 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 33,
+                      "CalibrationUsesLabelId": 7172,
                       "TypeId": 6,
                       "Label": "Transit Facilities",
-                      "ValueId": 1100,
+                      "ValueId": 163408,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 34,
+                      "CalibrationUsesLabelId": 7173,
                       "TypeId": 7,
                       "Label": "Childcare",
-                      "ValueId": 1101,
+                      "ValueId": 163409,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 35,
+                      "CalibrationUsesLabelId": 7174,
                       "TypeId": 7,
                       "Label": "College / University",
-                      "ValueId": 1102,
+                      "ValueId": 163410,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 36,
+                      "CalibrationUsesLabelId": 7175,
                       "TypeId": 7,
                       "Label": "Elementary School",
-                      "ValueId": 1103,
+                      "ValueId": 163411,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 37,
+                      "CalibrationUsesLabelId": 7176,
                       "TypeId": 7,
                       "Label": "Learning Center",
-                      "ValueId": 1104,
+                      "ValueId": 163412,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 38,
+                      "CalibrationUsesLabelId": 7177,
                       "TypeId": 7,
                       "Label": "Middle / High School",
-                      "ValueId": 1105,
+                      "ValueId": 163413,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 39,
+                      "CalibrationUsesLabelId": 7178,
                       "TypeId": 7,
                       "Label": "Pre - School",
-                      "ValueId": 1106,
+                      "ValueId": 163414,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 40,
+                      "CalibrationUsesLabelId": 7179,
                       "TypeId": 7,
                       "Label": "Research Facility",
-                      "ValueId": 1107,
+                      "ValueId": 163415,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 1,
+                      "AllowedUsesId": 613,
                       "Value": "R"
                     },
                     {
-                      "CalibrationUsesLabelId": 41,
+                      "CalibrationUsesLabelId": 7180,
                       "TypeId": 7,
                       "Label": "Special Training / Vocational",
-                      "ValueId": 1108,
+                      "ValueId": 163416,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 2,
+                      "AllowedUsesId": 614,
                       "Value": "W"
                     },
                     {
-                      "CalibrationUsesLabelId": 42,
+                      "CalibrationUsesLabelId": 7181,
                       "TypeId": 8,
                       "Label": "Auto - Related Industrial Establs.",
                       "ValueId": null,
@@ -5931,7 +5925,7 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 43,
+                      "CalibrationUsesLabelId": 7182,
                       "TypeId": 8,
                       "Label": "Manufacturing and Proccesing",
                       "ValueId": null,
@@ -5941,7 +5935,7 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 44,
+                      "CalibrationUsesLabelId": 7183,
                       "TypeId": 8,
                       "Label": "Marine Related Industrial Establs.",
                       "ValueId": null,
@@ -5951,7 +5945,7 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 45,
+                      "CalibrationUsesLabelId": 7184,
                       "TypeId": 8,
                       "Label": "Products and Services",
                       "ValueId": null,
@@ -5961,7 +5955,7 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 46,
+                      "CalibrationUsesLabelId": 7185,
                       "TypeId": 8,
                       "Label": "Storage / Distribution Facility",
                       "ValueId": null,
@@ -5971,13 +5965,13 @@
                       "Value": "N"
                     },
                     {
-                      "CalibrationUsesLabelId": 5978,
+                      "CalibrationUsesLabelId": 7186,
                       "TypeId": 5,
                       "Label": "Regional Activity Complex",
-                      "ValueId": 124054,
+                      "ValueId": 163876,
                       "UseLimit": null,
                       "ParkingRequired": null,
-                      "AllowedUsesId": 3,
+                      "AllowedUsesId": 615,
                       "Value": "E"
                     }
                   ]
@@ -6188,7 +6182,7 @@
                       }
                     ],
                     "area": 40601.297,
-                    "BuildingId": 24242
+                    "BuildingId": 24604
                   },
                   {
                     "startFloor": 2,
@@ -6357,7 +6351,7 @@
                       }
                     ],
                     "area": 40601.297,
-                    "BuildingId": 24242
+                    "BuildingId": 24604
                   },
                   {
                     "startFloor": 9,
@@ -6525,7 +6519,7 @@
                     ],
                     "buildingStructureType": 3,
                     "area": 19700.605000000003,
-                    "BuildingId": 24242
+                    "BuildingId": 24604
                   }
                 ],
                 "Uses": {
@@ -6732,7 +6726,7 @@
                 }
               },
               "Views": {
-                "versionTime": 1499424665392,
+                "versionTime": 1500459286592,
                 "ZA": {
                   "lot": {
                     "type": "Polygon",
@@ -7541,23 +7535,26 @@
               }
             }
           }
-        ]
+        ],
+        "type": 2
       }
     ],
+    "type": 1,
+    "userId": 163,
     "projectZoningCodes": [
       {
-        "Id": 1,
+        "Id": 205,
         "Name": "Copy of Miami For Auto Test",
-        "UserId": null,
-        "CreatedOn": "2015-11-20T19:10:37.000Z",
-        "ModifiedOn": "2017-04-29T00:24:13.000Z",
+        "UserId": 163,
+        "CreatedOn": "2017-07-13T10:31:15.000Z",
+        "ModifiedOn": "2017-07-13T10:31:15.000Z",
         "SynchronizedOn": "2017-04-21T20:22:44.000Z",
         "Description": null,
         "GridicsId": 808251,
         "EffectiveDate": "2015-05-05T04:00:00.000Z",
         "CityId": 1,
         "Priority": 3,
-        "CloneId": null,
+        "CloneId": 1,
         "Selected": 1,
         "CityName": "Miami"
       }

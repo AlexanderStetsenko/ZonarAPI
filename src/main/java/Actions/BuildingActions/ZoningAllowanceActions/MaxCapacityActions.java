@@ -1,4 +1,4 @@
-package Actions.BuildingActions;
+package Actions.BuildingActions.ZoningAllowanceActions;
 
 import Actions.BaseAction;
 import Entyties.Responses.OpenProjectResponse;

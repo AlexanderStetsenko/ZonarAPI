@@ -1,4 +1,4 @@
-package Actions.BuildingActions;
+package Actions.BuildingActions.ZoningAllowanceActions;
 
 import Actions.BaseAction;
 import Entyties.Project.Development.BuildingWrapper.CalibrationData.ZcCalibrations.GeneralInfo.GeneralInfoRow;
@@ -57,7 +57,7 @@ public class AllowedFrontagesTypeActions extends BaseAction {
 
     // Check value all Frontage (is disabled) types from enum list
     @Step("Check Frontage Types")
-    public void checkFrontegeTypes(OpenProjectResponse project, OpenProjectResponse projectExpected) throws AssertionError, Exception {
+    public void checkFrontageTypes(OpenProjectResponse project, OpenProjectResponse projectExpected) throws AssertionError, Exception {
         List<String> errors = new ArrayList<>();
         for (FrontageTypes frontageType : FrontageTypes.values()) {
             System.out.println(frontageType);
@@ -74,7 +74,7 @@ public class AllowedFrontagesTypeActions extends BaseAction {
 
     // Check one Frontage type value (is disabled)  by Frontage type name from enum list
     @Step("Check Frontage Type")
-    public void checkFrontegeType(OpenProjectResponse project, OpenProjectResponse projectExpected, FrontageTypes frontegeTypeName) throws Exception  {
+    public void checkFrontageType(OpenProjectResponse project, OpenProjectResponse projectExpected, FrontageTypes frontegeTypeName) throws Exception  {
             assertThat(isFrontageTypeAvailable(project, frontegeTypeName),
                     is( isFrontageTypeAvailable(projectExpected, frontegeTypeName)));
 
