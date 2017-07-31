@@ -1,7 +1,9 @@
 package Tests;
 
-/**
- * Created by Александр on 16.06.2017.
- */
+import Settings.MySettings;
+
 public class BaseTest {
+
+
+
 }

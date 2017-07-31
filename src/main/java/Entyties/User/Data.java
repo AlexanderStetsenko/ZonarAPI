@@ -164,4 +164,6 @@ public class Data extends Entity{
                 ", isLogoDefault=" + isLogoDefault +
                 '}';
     }
+
+
 }

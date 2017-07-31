@@ -1,0 +1,15 @@
+Tests\CalculationTests\BuildingTests\ZoningAllowenceTests\UsesTest.class
+Tests\CalculationTests\BuildingTests\ZoningAllowenceTests\FrontagesTests.class
+TestSuite\AllTestSuite.class
+TestSuite\LoginSuite.class
+TestSuite\BuildingSuite.class
+Tests\CalculationTests\BuildingTests\ZoningAllowenceTests\AllowedFrontageTypesTests.class
+Tests\CalculationTests\BuildingTests\ZoningAllowenceTests\ZoningAllowancesTests.class
+Tests\AccountTests\BaseAcountTest.class
+Tests\BaseTest.class
+Tests\CalculationTests\ProjectTests\ProjectGeneralInformationTests.class
+Rule\MyVirifierRule.class
+Tests\CalculationTests\BaseProjectTest.class
+Tests\AccountTests\Login.class
+Tests\CalculationTests\BuildingTests\ZoningAllowenceTests\MaximumLotCapacityTests.class
+Tests\CalculationTests\BuildingTests\BuildingTests.class

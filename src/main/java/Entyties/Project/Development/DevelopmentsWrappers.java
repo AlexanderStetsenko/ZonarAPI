@@ -1,6 +1,6 @@
 package Entyties.Project.Development;
 
-import Entyties.Project.Development.Building.BuildingsWrappers;
+import Entyties.Project.Development.BuildingWrapper.BuildingsWrappers;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -14,30 +14,19 @@ import java.util.List;
 public class DevelopmentsWrappers {
 
     @JsonProperty("_isReady")
-    Boolean isReady;
+    private Boolean isReady;
 
     @JsonProperty("Development")
-    Development development;
+    private Development development;
 
     @JsonProperty("collectionName")
-    String collectionName;
+    private String collectionName;
 
     @JsonProperty("type")
-    int type;
+    private int type;
 
     @JsonProperty("BuildingsWrappers")
-    List<BuildingsWrappers> buildingsWrappers = new ArrayList<BuildingsWrappers>();
-
-    public DevelopmentsWrappers() {
-    }
-
-    public DevelopmentsWrappers(Boolean isReady, Development development, String collectionName, int type, List<BuildingsWrappers> buildingsWrappers) {
-        this.isReady = isReady;
-        this.development = development;
-        this.collectionName = collectionName;
-        this.type = type;
-        this.buildingsWrappers = buildingsWrappers;
-    }
+    private List<BuildingsWrappers> buildingsWrappers = new ArrayList<BuildingsWrappers>();
 
     public Boolean getReady() {
         return isReady;

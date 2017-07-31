@@ -1,55 +1,41 @@
 package Tests.AccountTests;
 
 import Actions.UserAction;
-import Tests.BaseTest;
+import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
-
+import ru.yandex.qatools.allure.annotations.Features;
+import ru.yandex.qatools.allure.annotations.Stories;
+import ru.yandex.qatools.allure.annotations.Title;
 
 import java.util.Arrays;
 
-import static org.hamcrest.MatcherAssert.*;
-import static org.hamcrest.Matchers.*;
-import static org.junit.runners.Parameterized.*;
+import static org.junit.runners.Parameterized.Parameter;
+import static org.junit.runners.Parameterized.Parameters;
 
-@RunWith(Parameterized.class)
-public class Login extends BaseTest {
+@Features("Account Feature")
+@Stories("Account Stories")
+@Title("Login Tests")
+public class Login extends BaseAcountTest{
 
-    private static UserAction userAction;
-    @Parameter
-    public String login;
-    @Parameter(1)
-    public String pass;
 
-    @BeforeClass
-    public static void before(){
-        userAction = new UserAction();
+
+    @After
+    public void setDown()throws Exception{
+//        userAction.sendLoginRequest("","");
     }
 
-
-    @Parameters(name = "{0} ")
-    public static Iterable<Object[]> dataorTest() {
-        return Arrays.asList(new Object[][]{
-                {"admin@admin.com","123456"},
-                {"admin@admin.com","123456"},
-                {"admin@admin.com2","123456"},
-        });
-    }
-
-
+    @Title("Login Test with valid Credentials")
     @Test
     public void loginTest() throws Exception {
         userAction.sendLoginRequest(login, pass);
-        assertThat(UserAction.loginResponse.getMessage(), containsString("/account"));
-        assertThat(UserAction.loginResponse.getResType(), containsString("success"));
+        userAction.checkLoginResponse();
     }
 
+    @Title("Get User Data after Login")
     @Test
     public void getUserData() throws Exception {
         userAction.sendGetUserDataRequest();
-        System.out.println(UserAction.user.toString());
-        assertThat(UserAction.user.getData().getEmail(), is("admin@admin.com"));
+        userAction.checkEmail("admin@admin.com");
     }
 }
