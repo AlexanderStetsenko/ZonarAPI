@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite.AllTestSuite" time="17.058" tests="46" errors="2" skipped="0" failures="9">
+<testsuite name="TestSuite.AllTestSuite" time="23.12" tests="46" errors="2" skipped="0" failures="9">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
@@ -66,8 +66,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest[Login: admin@admin.com Password: 123456 ]" classname="Tests.AccountTests.Login" time="3.502"/>
-  <testcase name="getUserData[Login: admin@admin.com Password: 123456 ]" classname="Tests.AccountTests.Login" time="0.88">
+  <testcase name="loginTest[Login: admin@admin.com Password: 123456 ]" classname="Tests.AccountTests.Login" time="9.003"/>
+  <testcase name="getUserData[Login: admin@admin.com Password: 123456 ]" classname="Tests.AccountTests.Login" time="0.829">
     <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
 	at Actions.UserAction.checkEmail(UserAction.java:40)
 	at Tests.AccountTests.Login.getUserData(Login.java:39)
@@ -181,8 +181,8 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest[Login: admin@admin.com Password: 123456 ]" classname="Tests.AccountTests.Login" time="0.1"/>
-  <testcase name="getUserData[Login: admin@admin.com Password: 123456 ]" classname="Tests.AccountTests.Login" time="0.312">
+  <testcase name="loginTest[Login: admin@admin.com Password: 123456 ]" classname="Tests.AccountTests.Login" time="0.107"/>
+  <testcase name="getUserData[Login: admin@admin.com Password: 123456 ]" classname="Tests.AccountTests.Login" time="0.351">
     <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
 	at Actions.UserAction.checkEmail(UserAction.java:40)
 	at Tests.AccountTests.Login.getUserData(Login.java:39)
@@ -296,8 +296,8 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
 ]]></system-err>
   </testcase>
-  <testcase name="checkZone[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.BuildingTests" time="1.847"/>
-  <testcase name="checkZoneCodes[Shape number: 828 900]" classname="Tests.CalculationTests.ProjectTests.ProjectGeneralInformationTests" time="1.776">
+  <testcase name="checkZone[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.BuildingTests" time="1.914"/>
+  <testcase name="checkZoneCodes[Shape number: 828 900]" classname="Tests.CalculationTests.ProjectTests.ProjectGeneralInformationTests" time="1.788">
     <failure message="&#10;Expected: one of {&quot;Copy of Miami For Auto Test&quot;}&#10;     but: was &quot;Miami&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: one of {"Copy of Miami For Auto Test"}
      but: was "Miami"
@@ -307,11 +307,11 @@ Expected: one of {"Copy of Miami For Auto Test"}
 	at Tests.CalculationTests.ProjectTests.ProjectGeneralInformationTests.checkZoneCodes(ProjectGeneralInformationTests.java:35)
 </failure>
     <system-out>Deleting Project... 
-Project 5267 is deleted
+Project 5277 is deleted
 Project Creation
 </system-out>
   </testcase>
-  <testcase name="checkProjectOwner[Shape number: 828 900]" classname="Tests.CalculationTests.ProjectTests.ProjectGeneralInformationTests" time="0.004">
+  <testcase name="checkProjectOwner[Shape number: 828 900]" classname="Tests.CalculationTests.ProjectTests.ProjectGeneralInformationTests" time="0.002">
     <failure message="&#10;Expected: &lt;163&gt;&#10;     but: was &lt;15&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 Expected: <163>
      but: was <15>
@@ -321,7 +321,7 @@ Expected: <163>
 	at Tests.CalculationTests.ProjectTests.ProjectGeneralInformationTests.checkProjectOwner(ProjectGeneralInformationTests.java:29)
 ]]></failure>
   </testcase>
-  <testcase name="checkProjectName[Shape number: 828 900]" classname="Tests.CalculationTests.ProjectTests.ProjectGeneralInformationTests" time="0.004">
+  <testcase name="checkProjectName[Shape number: 828 900]" classname="Tests.CalculationTests.ProjectTests.ProjectGeneralInformationTests" time="0.001">
     <failure message="&#10;Expected: equalToIgnoringWhiteSpace(&quot;Project 4&quot;)&#10;     but: was  Project 1" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: equalToIgnoringWhiteSpace("Project 4")
      but: was  Project 1
@@ -331,27 +331,27 @@ Expected: equalToIgnoringWhiteSpace("Project 4")
 	at Tests.CalculationTests.ProjectTests.ProjectGeneralInformationTests.checkProjectName(ProjectGeneralInformationTests.java:23)
 </failure>
   </testcase>
-  <testcase name="lotCoverageTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="1.691"/>
-  <testcase name="maxBuildingAreaAllowed[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
+  <testcase name="lotCoverageTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="1.813"/>
+  <testcase name="maxBuildingAreaAllowed[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0.001"/>
   <testcase name="dwellingUnitsAllowedTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
   <testcase name="floorAreaRatio[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
   <testcase name="minOpenSpaceTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
   <testcase name="maxOfficeHeightAllowed[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
   <testcase name="checkMaxCommercialEstablishedArea[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
   <testcase name="maximumBuiltAreaTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
-  <testcase name="lotAreaInAcresTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0.001"/>
+  <testcase name="lotAreaInAcresTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
   <testcase name="lotAreaPRCalculation[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
-  <testcase name="dwellingUnitsperAcreTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0.001"/>
-  <testcase name="maxCommercialAreaAllowed[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0.001"/>
-  <testcase name="maxCommercialHeight[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0.016"/>
-  <testcase name="principalBuildingMinHeightPodiumTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0.001"/>
+  <testcase name="dwellingUnitsperAcreTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0.005"/>
+  <testcase name="maxCommercialAreaAllowed[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
+  <testcase name="maxCommercialHeight[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
+  <testcase name="principalBuildingMinHeightPodiumTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
   <testcase name="principalBuildingMaxHeightPodiumTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
   <testcase name="principalTowerHeight[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.MaximumLotCapacityTests" time="0"/>
-  <testcase name="usesFromCalibrationsWithoutVariancesTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.UsesTest" time="1.732"/>
-  <testcase name="usesFromCalibrationsTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.UsesTest" time="0.002"/>
-  <testcase name="usesFromOriginalCalibrationsTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.UsesTest" time="0.001"/>
-  <testcase name="checkAllowedFrontageTypeCalibrations[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.AllowedFrontageTypesTests" time="1.8"/>
-  <testcase name="checkBuildingTypologyIdsTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="1.739"/>
+  <testcase name="usesFromCalibrationsWithoutVariancesTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.UsesTest" time="1.819"/>
+  <testcase name="usesFromCalibrationsTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.UsesTest" time="0.001"/>
+  <testcase name="usesFromOriginalCalibrationsTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.UsesTest" time="0.002"/>
+  <testcase name="checkAllowedFrontageTypeCalibrations[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.AllowedFrontageTypesTests" time="1.823"/>
+  <testcase name="checkBuildingTypologyIdsTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="1.818"/>
   <testcase name="checkDepth[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0"/>
   <testcase name="checkWidth[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0"/>
   <testcase name="checkZoneTypeIdTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0.002">
@@ -376,8 +376,8 @@ Expected: is <1936>
 	at Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests.checkSubZoneIdTest(ZoningAllowancesTests.java:43)
 ]]></failure>
   </testcase>
-  <testcase name="checkHeightLimitValue[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0.002"/>
-  <testcase name="checkZoneIdTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0">
+  <testcase name="checkHeightLimitValue[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0.003"/>
+  <testcase name="checkZoneIdTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0.001">
     <failure message="&#10;Expected: is &lt;2088&gt;&#10;     but: was &lt;5&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 Expected: is <2088>
      but: was <5>
@@ -388,7 +388,7 @@ Expected: is <2088>
 	at Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests.checkZoneIdTest(ZoningAllowancesTests.java:29)
 ]]></failure>
   </testcase>
-  <testcase name="checkOverlayIdsTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0.021">
+  <testcase name="checkOverlayIdsTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0.004">
     <failure message="&#10;Expected: is &lt;[[5062]&gt;&#10;     but: was &lt;[[4]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 Expected: is <[[5062]>
      but: was <[[4]>
@@ -398,8 +398,8 @@ Expected: is <[[5062]>
 	at Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests.checkOverlayIdsTest(ZoningAllowancesTests.java:60)
 ]]></failure>
   </testcase>
-  <testcase name="checkIrregularArea[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0"/>
-  <testcase name="checkVariancesIdTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0">
+  <testcase name="checkIrregularArea[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0.001"/>
+  <testcase name="checkVariancesIdTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0.001">
     <failure message="&#10;Expected: is &lt;[[889, 888, 890, 891, 892, 894, 895, 897, 899, 900, 901, 902, 898]&gt;&#10;     but: was &lt;[[32, 694, 31, 33, 34, 35, 40, 100, 744]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 Expected: is <[[889, 888, 890, 891, 892, 894, 895, 897, 899, 900, 901, 902, 898]>
      but: was <[[32, 694, 31, 33, 34, 35, 40, 100, 744]>
@@ -421,9 +421,9 @@ Expected: is <205>
 	at Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests.checkZoningCodeIdTest(ZoningAllowancesTests.java:22)
 ]]></failure>
   </testcase>
-  <testcase name="checkIrregularFrontage[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0"/>
+  <testcase name="checkIrregularFrontage[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0.001"/>
   <testcase name="checkHeightLimit[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.ZoningAllowancesTests" time="0"/>
-  <testcase name="checkFrontageTypeTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.FrontagesTests" time="1.622"/>
+  <testcase name="checkFrontageTypeTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.FrontagesTests" time="1.829"/>
   <testcase name="checkSetbacksTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.FrontagesTests" time="0"/>
   <testcase name="checkFrontageNumberTest[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.FrontagesTests" time="0"/>
   <testcase name="checkZone[Shape number: 828 900]" classname="Tests.CalculationTests.BuildingTests.ZoningAllowenceTests.FrontagesTests" time="0"/>
